@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2119B6281E8D42FD00C86831 /* CustomPizzaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2119B6271E8D42FD00C86831 /* CustomPizzaListViewController.swift */; };
 		212BE86B1E8AFB6D00D1D9D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BE86A1E8AFB6D00D1D9D3 /* AppDelegate.swift */; };
 		212BE8701E8AFB6D00D1D9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212BE86E1E8AFB6D00D1D9D3 /* Main.storyboard */; };
 		212BE8731E8AFB6D00D1D9D3 /* PizzaFactory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 212BE8711E8AFB6D00D1D9D3 /* PizzaFactory.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 		212BE8831E8AFB6D00D1D9D3 /* PizzaFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BE8821E8AFB6D00D1D9D3 /* PizzaFactoryTests.swift */; };
 		212BE88E1E8AFB6E00D1D9D3 /* PizzaFactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BE88D1E8AFB6E00D1D9D3 /* PizzaFactoryUITests.swift */; };
 		212BE89E1E8AFD4100D1D9D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BE89D1E8AFD4100D1D9D3 /* HomeViewController.swift */; };
+		21E9E0DB1E8BC9970075E775 /* PizzaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E9E0DA1E8BC9970075E775 /* PizzaListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2119B6271E8D42FD00C86831 /* CustomPizzaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomPizzaListViewController.swift; path = ViewControllers/CustomPizzaListViewController.swift; sourceTree = "<group>"; };
 		212BE8671E8AFB6D00D1D9D3 /* PizzaFactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaFactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		212BE86A1E8AFB6D00D1D9D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		212BE86F1E8AFB6D00D1D9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		212BE88D1E8AFB6E00D1D9D3 /* PizzaFactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaFactoryUITests.swift; sourceTree = "<group>"; };
 		212BE88F1E8AFB6E00D1D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		212BE89D1E8AFD4100D1D9D3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewController.swift; sourceTree = "<group>"; };
+		21E9E0DA1E8BC9970075E775 /* PizzaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PizzaListViewController.swift; path = ViewControllers/PizzaListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				212BE89D1E8AFD4100D1D9D3 /* HomeViewController.swift */,
+				21E9E0DA1E8BC9970075E775 /* PizzaListViewController.swift */,
+				2119B6271E8D42FD00C86831 /* CustomPizzaListViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -271,8 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				212BE86B1E8AFB6D00D1D9D3 /* AppDelegate.swift in Sources */,
+				21E9E0DB1E8BC9970075E775 /* PizzaListViewController.swift in Sources */,
 				212BE8731E8AFB6D00D1D9D3 /* PizzaFactory.xcdatamodeld in Sources */,
 				212BE89E1E8AFD4100D1D9D3 /* HomeViewController.swift in Sources */,
+				2119B6281E8D42FD00C86831 /* CustomPizzaListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +525,7 @@
 				212BE8941E8AFB6E00D1D9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212BE8951E8AFB6E00D1D9D3 /* Build configuration list for PBXNativeTarget "PizzaFactoryTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +534,7 @@
 				212BE8971E8AFB6E00D1D9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		212BE8981E8AFB6E00D1D9D3 /* Build configuration list for PBXNativeTarget "PizzaFactoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +543,7 @@
 				212BE89A1E8AFB6E00D1D9D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
