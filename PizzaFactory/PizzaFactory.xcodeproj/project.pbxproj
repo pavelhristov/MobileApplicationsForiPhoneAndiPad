@@ -20,6 +20,7 @@
 		212BE8831E8AFB6D00D1D9D3 /* PizzaFactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BE8821E8AFB6D00D1D9D3 /* PizzaFactoryTests.swift */; };
 		212BE88E1E8AFB6E00D1D9D3 /* PizzaFactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BE88D1E8AFB6E00D1D9D3 /* PizzaFactoryUITests.swift */; };
 		212BE89E1E8AFD4100D1D9D3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212BE89D1E8AFD4100D1D9D3 /* HomeViewController.swift */; };
+		21AE917E1E8E837E00397ED8 /* CustomPizzaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE917D1E8E837E00397ED8 /* CustomPizzaDetailsViewController.swift */; };
 		21E9E0DB1E8BC9970075E775 /* PizzaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E9E0DA1E8BC9970075E775 /* PizzaListViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		212BE88D1E8AFB6E00D1D9D3 /* PizzaFactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaFactoryUITests.swift; sourceTree = "<group>"; };
 		212BE88F1E8AFB6E00D1D9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		212BE89D1E8AFD4100D1D9D3 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewController.swift; sourceTree = "<group>"; };
+		21AE917D1E8E837E00397ED8 /* CustomPizzaDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomPizzaDetailsViewController.swift; path = ViewControllers/CustomPizzaDetailsViewController.swift; sourceTree = "<group>"; };
 		21E9E0DA1E8BC9970075E775 /* PizzaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PizzaListViewController.swift; path = ViewControllers/PizzaListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -182,6 +184,7 @@
 				212BE89D1E8AFD4100D1D9D3 /* HomeViewController.swift */,
 				21E9E0DA1E8BC9970075E775 /* PizzaListViewController.swift */,
 				2119B6271E8D42FD00C86831 /* CustomPizzaListViewController.swift */,
+				21AE917D1E8E837E00397ED8 /* CustomPizzaDetailsViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				212BE8731E8AFB6D00D1D9D3 /* PizzaFactory.xcdatamodeld in Sources */,
 				2119B62E1E8D49CF00C86831 /* HttpRequesterDelegate.swift in Sources */,
 				212BE89E1E8AFD4100D1D9D3 /* HomeViewController.swift in Sources */,
+				21AE917E1E8E837E00397ED8 /* CustomPizzaDetailsViewController.swift in Sources */,
 				2119B6311E8D4D9000C86831 /* CustomPizza.swift in Sources */,
 				2119B62C1E8D497900C86831 /* HttpRequester.swift in Sources */,
 				2119B6341E8D507900C86831 /* CustomPizzaDictionary.swift in Sources */,
