@@ -25,14 +25,17 @@ class CustomPizzaListViewController: UITableViewController, HttpRequesterDelegat
         }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        self.http?.delegate = self
+        
+        self.showLoadingScreen()
+        self.http?.get(fromUrl: self.url)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "custom-pizza-cell")
-        
-        self.http?.delegate = self
-        
-        self.http?.get(fromUrl: self.url)
     }
     
     
@@ -43,6 +46,7 @@ class CustomPizzaListViewController: UITableViewController, HttpRequesterDelegat
         
         DispatchQueue.main.async {
             self.tableView.reloadData()
+            self.hideLoadingScreen()
         }
     }
     
