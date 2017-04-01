@@ -111,7 +111,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Pizzas"/>
                                 <connections>
-                                    <segue destination="Jqr-47-jm7" kind="show" id="4KK-KX-A2h"/>
+                                    <segue destination="xVl-ot-eD0" kind="show" id="xtk-dZ-TxB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bb8-bT-Bgi">
@@ -163,34 +163,32 @@
             <point key="canvasLocation" x="-17" y="326"/>
         </scene>
         <!--Pizza List View Controller-->
-        <scene sceneID="4zY-Qw-Bjg">
+        <scene sceneID="ZjZ-lq-cYr">
             <objects>
-                <viewController storyboardIdentifier="pizzaListView" id="Jqr-47-jm7" customClass="PizzaListViewController" customModule="PizzaFactory" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="6Zl-4a-gOs"/>
-                        <viewControllerLayoutGuide type="bottom" id="hZb-vz-osz"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Q58-jc-E98">
+                <tableViewController id="xVl-ot-eD0" customClass="PizzaListViewController" customModule="PizzaFactory" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="d8L-6r-bBV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pesho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vzj-y6-7nZ">
-                                <rect key="frame" x="16" y="176" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.089263750714253187" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="pizzaListView" destination="Q58-jc-E98" id="bEZ-Df-0Rf"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rGe-m6-ac9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="T9j-se-HJS">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T9j-se-HJS" id="zzX-iA-aVb">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="xVl-ot-eD0" id="AOB-f2-upV"/>
+                            <outlet property="delegate" destination="xVl-ot-eD0" id="K9k-fl-Vdh"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MIh-7i-xpA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-126" y="-356"/>
+            <point key="canvasLocation" x="-18" y="-320"/>
         </scene>
     </scenes>
 </document>

@@ -23,6 +23,10 @@
 		21AE917E1E8E837E00397ED8 /* CustomPizzaDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AE917D1E8E837E00397ED8 /* CustomPizzaDetailsViewController.swift */; };
 		21E9E0DB1E8BC9970075E775 /* PizzaListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E9E0DA1E8BC9970075E775 /* PizzaListViewController.swift */; };
 		21F772C21E90563100C63A97 /* loadingScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F772C11E90563100C63A97 /* loadingScreenExtension.swift */; };
+		21F772C41E90575D00C63A97 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F772C31E90575D00C63A97 /* Pizza.swift */; };
+		21F772C61E9057F500C63A97 /* PizzaDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F772C51E9057F500C63A97 /* PizzaDictionary.swift */; };
+		21F772CC1E90600B00C63A97 /* PizzaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F772CA1E90600B00C63A97 /* PizzaTableViewCell.swift */; };
+		21F772CD1E90600B00C63A97 /* PizzaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F772CB1E90600B00C63A97 /* PizzaTableViewCell.xib */; };
 		22E306EE0D71D88DE1123213 /* Pods_PizzaFactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C5117B3FB12E28AE0C945E /* Pods_PizzaFactory.framework */; };
 		2B3515C12197F23FF4ED427D /* Pods_PizzaFactoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 204F17E830BB1D444D45624C /* Pods_PizzaFactoryTests.framework */; };
 		2BDB37C743A7B30B80BE8F59 /* Pods_PizzaFactoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2333344E77E5C45A5E27098 /* Pods_PizzaFactoryUITests.framework */; };
@@ -70,6 +74,10 @@
 		21AE917D1E8E837E00397ED8 /* CustomPizzaDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomPizzaDetailsViewController.swift; path = ViewControllers/CustomPizzaDetailsViewController.swift; sourceTree = "<group>"; };
 		21E9E0DA1E8BC9970075E775 /* PizzaListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PizzaListViewController.swift; path = ViewControllers/PizzaListViewController.swift; sourceTree = "<group>"; };
 		21F772C11E90563100C63A97 /* loadingScreenExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = loadingScreenExtension.swift; path = ViewControllers/Extensions/loadingScreenExtension.swift; sourceTree = "<group>"; };
+		21F772C31E90575D00C63A97 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pizza.swift; path = Models/Pizza.swift; sourceTree = "<group>"; };
+		21F772C51E9057F500C63A97 /* PizzaDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PizzaDictionary.swift; path = Models/DictionaryExtensions/PizzaDictionary.swift; sourceTree = "<group>"; };
+		21F772CA1E90600B00C63A97 /* PizzaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PizzaTableViewCell.swift; path = Views/PizzaTableViewCell.swift; sourceTree = "<group>"; };
+		21F772CB1E90600B00C63A97 /* PizzaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PizzaTableViewCell.xib; path = Views/PizzaTableViewCell.xib; sourceTree = "<group>"; };
 		5D162FA916123E875CD7C288 /* Pods-PizzaFactoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaFactoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PizzaFactoryTests/Pods-PizzaFactoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BBF9541DF37D276714FE070 /* Pods-PizzaFactoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PizzaFactoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PizzaFactoryTests/Pods-PizzaFactoryTests.release.xcconfig"; sourceTree = "<group>"; };
 		B6C5117B3FB12E28AE0C945E /* Pods_PizzaFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PizzaFactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +137,7 @@
 			children = (
 				2119B6321E8D503800C86831 /* DictionaryExtensions */,
 				2119B6301E8D4D9000C86831 /* CustomPizza.swift */,
+				21F772C31E90575D00C63A97 /* Pizza.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -137,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				2119B6331E8D507900C86831 /* CustomPizzaDictionary.swift */,
+				21F772C51E9057F500C63A97 /* PizzaDictionary.swift */,
 			);
 			name = DictionaryExtensions;
 			sourceTree = "<group>";
@@ -166,6 +176,7 @@
 		212BE8691E8AFB6D00D1D9D3 /* PizzaFactory */ = {
 			isa = PBXGroup;
 			children = (
+				21F772C71E905BE500C63A97 /* Views */,
 				2119B62F1E8D4D5E00C86831 /* Models */,
 				2119B6291E8D491500C86831 /* Data */,
 				212BE89C1E8AFCD200D1D9D3 /* ViewControllers */,
@@ -215,6 +226,15 @@
 				21F772C11E90563100C63A97 /* loadingScreenExtension.swift */,
 			);
 			name = Extensions;
+			sourceTree = "<group>";
+		};
+		21F772C71E905BE500C63A97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				21F772CA1E90600B00C63A97 /* PizzaTableViewCell.swift */,
+				21F772CB1E90600B00C63A97 /* PizzaTableViewCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		5D57AC53593D949C7EF5C02B /* Frameworks */ = {
@@ -356,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F772CD1E90600B00C63A97 /* PizzaTableViewCell.xib in Resources */,
 				212BE8781E8AFB6D00D1D9D3 /* LaunchScreen.storyboard in Resources */,
 				212BE8751E8AFB6D00D1D9D3 /* Assets.xcassets in Resources */,
 				212BE8701E8AFB6D00D1D9D3 /* Main.storyboard in Resources */,
@@ -524,11 +545,14 @@
 				212BE86B1E8AFB6D00D1D9D3 /* AppDelegate.swift in Sources */,
 				21F772C21E90563100C63A97 /* loadingScreenExtension.swift in Sources */,
 				21E9E0DB1E8BC9970075E775 /* PizzaListViewController.swift in Sources */,
+				21F772C61E9057F500C63A97 /* PizzaDictionary.swift in Sources */,
 				212BE8731E8AFB6D00D1D9D3 /* PizzaFactory.xcdatamodeld in Sources */,
 				2119B62E1E8D49CF00C86831 /* HttpRequesterDelegate.swift in Sources */,
+				21F772CC1E90600B00C63A97 /* PizzaTableViewCell.swift in Sources */,
 				212BE89E1E8AFD4100D1D9D3 /* HomeViewController.swift in Sources */,
 				21AE917E1E8E837E00397ED8 /* CustomPizzaDetailsViewController.swift in Sources */,
 				2119B6311E8D4D9000C86831 /* CustomPizza.swift in Sources */,
+				21F772C41E90575D00C63A97 /* Pizza.swift in Sources */,
 				2119B62C1E8D497900C86831 /* HttpRequester.swift in Sources */,
 				2119B6341E8D507900C86831 /* CustomPizzaDictionary.swift in Sources */,
 				2119B6281E8D42FD00C86831 /* CustomPizzaListViewController.swift in Sources */,
