@@ -35,7 +35,7 @@ class CustomPizzaListViewController: UITableViewController, HttpRequesterDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "custom-pizza-cell")
+        //self.tableView.register(CustomPizzaTableViewCell.self, forCellReuseIdentifier: "custom-pizza-cell")
     }
     
     
@@ -66,8 +66,10 @@ class CustomPizzaListViewController: UITableViewController, HttpRequesterDelegat
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "custom-pizza-cell", for: indexPath)
-        cell.textLabel?.text = self.customPizzas[indexPath.row].name
+        let cell = tableView.dequeueReusableCell(withIdentifier: "custom-pizza-cell", for: indexPath) as! CustomPizzaTableViewCell
+        let customPizza = self.customPizzas[indexPath.row]
+        cell.nameLabel?.text = customPizza.name
+        cell.priceLabel?.text = NSString(format: "%.2f", customPizza.price) as String
         
         return cell
     }

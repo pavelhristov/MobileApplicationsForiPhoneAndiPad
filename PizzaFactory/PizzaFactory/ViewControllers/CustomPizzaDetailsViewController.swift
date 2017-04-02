@@ -39,6 +39,11 @@ class CustomPizzaDetailsViewController: UIViewController, HttpRequesterDelegate{
         self.http?.delegate = self
         self.showLoadingScreen()
         self.http?.get(fromUrl: self.url)
+        
+        self.LabelName.font = UIFont(name: "Chalkduster", size: 30)
+        self.LabelIngredients.font = UIFont(name:"TimesNewRomanPS-ItalicMT",size:20)
+        self.LabelDescription.font = UIFont(name:"TimesNewRomanPS-ItalicMT",size:20)
+        self.LabelPrice.font = UIFont(name: "Cochin-Italic", size: 15)
     }
     
     override func viewDidLoad() {

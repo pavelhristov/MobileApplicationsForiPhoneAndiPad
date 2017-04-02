@@ -61,7 +61,6 @@ class PizzaListViewController: UITableViewController, HttpRequesterDelegate{
         
         let cellNib = UINib(nibName: "PizzaTableViewCell", bundle: nil)
         
-        //self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "pizza-cell")
         self.tableView.register(cellNib, forCellReuseIdentifier: "pizza-cell")
         self.tableView.rowHeight = 100
     }
@@ -76,6 +75,13 @@ class PizzaListViewController: UITableViewController, HttpRequesterDelegate{
             self.tableView.reloadData()
             self.hideLoadingScreen()
         }
+    }
+    
+    func showDetails(of pizza: Pizza){
+        let nextVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "pizza-details") as! PizzaDetailsViewController
+        nextVC.pizzaId = pizza.id
+        
+        self.navigationController?.show(nextVC, sender: self)
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -125,5 +131,8 @@ class PizzaListViewController: UITableViewController, HttpRequesterDelegate{
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.showDetails(of: self.Pizzas[indexPath.row])
+    }
     
 }
