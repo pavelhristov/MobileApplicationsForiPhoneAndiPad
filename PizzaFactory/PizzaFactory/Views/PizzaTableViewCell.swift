@@ -17,6 +17,12 @@ class PizzaTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        self.ImageViewPicture.layer.masksToBounds = true
+        self.ImageViewPicture.layer.cornerRadius = 10
+        
+        self.LabelName.font = UIFont(name: "MarkerFelt-Thin", size: 20)
+        self.LabelPrice.font = UIFont(name: "Palatino-Italic", size: 15)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
