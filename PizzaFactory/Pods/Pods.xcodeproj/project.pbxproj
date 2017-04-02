@@ -7,181 +7,204 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D10554E79BB1DD8131AFC4B0A75C89D /* ViewController+Swinject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB8336F01FA13051E489E91667C388E /* ViewController+Swinject.swift */; };
-		0EC14EBFB1B3A9BBB69ACADBEB0114FB /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3FE6DAE6026CB61D1086C548B3D041 /* SwinjectStoryboard.swift */; };
-		23DE4198CE14365D84B8964A09E162F4 /* _SwinjectStoryboardBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDE7B08E7795A93763405CD74B6824E /* _SwinjectStoryboardBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24A084DB719E9978A3AA48822FDDC84C /* Pods-PizzaFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 896A6255C3AFE77B180E7E694D7391BA /* Pods-PizzaFactory-dummy.m */; };
-		29E0D2FFEB784783BBF02AC5B1C69806 /* SpinLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F4DD6BB6F57A544C9CAFE2CDBE203B /* SpinLock.swift */; };
-		341CB1677677BEEDAA253CC25A45DA5B /* InstanceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2CABF76B7125CF40150351458D9036 /* InstanceStorage.swift */; };
-		388C52A56A2DC255914373024EE4D29D /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC0FA5972ED84B73C081686134B7E0C /* Resolver.swift */; };
-		4A0FE87BD8FF42018A9A3D4C5F46E03E /* Container.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FBAF4C1612921401541FB15EC53253 /* Container.Arguments.swift */; };
-		4D7CF5E3CD379D99801D7D34694C6AA0 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31545A0DBA77636C07AB04F30A6BB14 /* Container.swift */; };
-		4FFA4A310CE2B92E3228534943692D7B /* Container+SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3020E7A78183AF09B5CACE16C9D95F30 /* Container+SwinjectStoryboard.swift */; };
-		519BD8CFBCDBFA27FB966D455848B6A9 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245410A3C91D9842E7B065923B1B8A00 /* UnavailableItems.swift */; };
-		5DBE96B0FAD4A9219AC0CAFF3D2A776C /* SynchronizedResolver.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F8168972F40FDEB56299B60AC3E823 /* SynchronizedResolver.Arguments.swift */; };
-		618DE81AB6F5222DED301DDBAE90EFB9 /* ServiceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B681F6CCCD1F68E7632EAD40AC616BE /* ServiceKey.swift */; };
-		64E3048DE911436EB6ED93C84BA66358 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33EED10ADEF7D02A32EF881228FB38A5 /* Swinject.framework */; };
-		6627AABE1D33FB271853FABA15FF37AA /* SwinjectStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE36707CC80869C7CE72C463C462CA3 /* SwinjectStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		662D420253C3A5EDF3E442573806231D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EDED8765F4593DE7584E6C85124E64 /* Foundation.framework */; };
-		6996F2183D6C27470AC930D14C0987F6 /* _Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7688CE82B90C1B584AF5380F32A1D4F0 /* _Resolver.swift */; };
-		836A931412F9D53FC6011839A46811B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EDED8765F4593DE7584E6C85124E64 /* Foundation.framework */; };
-		8651C571184056587BFEE61CA13F099C /* SwinjectStoryboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 991F235B9A06DB5A80A7AE70BC94182C /* SwinjectStoryboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		090134BFC778C879B9BF6A04E0B54626 /* SwinjectStoryboardOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49D66EE32D922D6957B4AB4519FF71E /* SwinjectStoryboardOption.swift */; };
+		0D8542AC0566B31816FA626195C2112C /* ServiceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3B6423F51AFB7DF314DAFE91194DE /* ServiceKey.swift */; };
+		127BCBAAA557C49C8CD541061F0219A4 /* SynchronizedResolver.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95A9BB865E3CD0EA14B6B4877DB24D6 /* SynchronizedResolver.Arguments.swift */; };
+		1630E103AB07DBFDBA8AEABDFD47A13E /* _Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D8BFA1A531B3887E88646C8A132FB8 /* _Resolver.swift */; };
+		1A6D642C1F3EA39B2BD545095AF3956D /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E68F98398128E62A83484E88D9321C0 /* Swinject.framework */; };
+		2093025600C298BB2C123FA2D0228E7C /* InjectionVerifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD97221C5B0B07EF18F75F4778DCA6D /* InjectionVerifiable.swift */; };
+		219B7DA96B189E8EA7A9B3597F160DBB /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F768BB8CC31CC243E12D302674195B /* Box.swift */; };
+		227FA642DEFE0A0C319994944DA58678 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A661F2953F4331CE3F5715A1A884627 /* Toast-Swift-dummy.m */; };
+		24742DF93849429127682B6C75BE4D44 /* Pods-PizzaFactory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 896A6255C3AFE77B180E7E694D7391BA /* Pods-PizzaFactory-dummy.m */; };
+		2A52B6CBF454025E715E72EEDECC85A6 /* Storyboard+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BB87887405BEAD5D72EEB6CDBBA920 /* Storyboard+Swizzling.swift */; };
+		3FC673D83A4FCF3848F1925D3EBB37B0 /* ObjectScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4BFAB4BA2B2A6A599DC7CADEC95D97 /* ObjectScope.swift */; };
+		4411200B7732FA4328A8AB8D57FB293E /* Swinject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A8B537AC4CF9CF712E26224D91FAF0B /* Swinject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E1D539D8E4C1F7DA9C5E6FAA1E25BE1 /* Swinject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A03EE2CC356D8C2303F54E7485BD5141 /* Swinject-dummy.m */; };
+		50531828F24884F1005FC5F8EAD7F4FA /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBFF36E37A1403EDCF5401E5A89FDB6 /* Assembly.swift */; };
+		528DDDC1DF86B5D52700EF034A56C146 /* ObjectScope.Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135C8E782AEAE31A157600AD1F7B9BD6 /* ObjectScope.Standard.swift */; };
+		59D2C730B390E13FD7C1F4CBD40E50E6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E52CB6FC693F74A88B0AD512F4427DC /* QuartzCore.framework */; };
+		5D801A0CE344600EC13E055009F363FC /* InstanceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49499BEAFC480104ED6EEF48566857F5 /* InstanceStorage.swift */; };
+		5F71479314EB53038B653FBE3F2A397B /* SwinjectStoryboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DA496A258066BBBF8907F589FD677C /* SwinjectStoryboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F9F27440E0C85DFE1F3E7C293C0521 /* DebugHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B34DCB8742569A837DAB56EE7D1F108 /* DebugHelper.swift */; };
+		6ADBDF5C1FE0469580CA996C655774A6 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1D95733D9126C98FFEDCB5DBF97BCB /* Toast.swift */; };
+		7743D8DE9A631FF4B12E036FC09E5E39 /* ServiceEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209D5D316EDB561814D72C702C4B42AE /* ServiceEntry.swift */; };
+		7763F1B5FE98EF277814A6196C693215 /* SynchronizedResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13EE56862F1A71A59E80841EE6680223 /* SynchronizedResolver.swift */; };
+		7B5C17992F7EDF6839B146311F1065A3 /* SwinjectStoryboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D0B0EFA04CCE2B1640DC978F2D3D68 /* SwinjectStoryboard-dummy.m */; };
+		829F363916E337AB9CBEAA55A994CF11 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4053E73C98D9464D9E63ABFBAAFB8174 /* Assembler.swift */; };
+		836A931412F9D53FC6011839A46811B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474073961D5173525D0E64782949C039 /* Foundation.framework */; };
+		850953DD5236F4A7C629B4DFD497889A /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 159AE39BCBC3AD23D24DDD181DEB107E /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87613D6380E2F913F328A12A6A8309B6 /* SwinjectStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = B0CC0E0C784CA33CFB586D919612EEA9 /* SwinjectStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A97A535566657CFC27E9CE1CE4DC40F /* Pods-PizzaFactory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3B981FA2DB177720E1C0B68F78007 /* Pods-PizzaFactory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C2D9F0516C3A3798938F143CB645A15 /* Pods-PizzaFactoryTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F154A78F1A6F29142F76F9FC7405D61A /* Pods-PizzaFactoryTests-dummy.m */; };
-		93A6F989CC5CE91CAD821DF0174B014E /* FunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C344EA444B7F5C0D170F41A288A45 /* FunctionType.swift */; };
-		972878270E6B013E2F08080A806CA3BA /* InjectionVerifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D085608CF4B7E3D9D3D657D471A5A8 /* InjectionVerifiable.swift */; };
-		9A7F50B0D62702A7CFA6FD26E5D07EC0 /* ObjectScope.Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BCF9C9AC8F4C541DBC9AD65CFF18D /* ObjectScope.Standard.swift */; };
-		A6B1469A989B9AA5B84CBFBC77637835 /* SynchronizedResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CB11CE9D13F048B81A5FFA54A263B /* SynchronizedResolver.swift */; };
-		AA00257069F86C78641FC691C022578B /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC13D8536A45B24535D226F351D5BADA /* Box.swift */; };
+		8C334C252E84253732EECA989D024F14 /* RegistrationNameAssociatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C25E95DB1BE15264C99D1E090E5B4A /* RegistrationNameAssociatable.swift */; };
+		942A216F48F3D2862D7677FDDB17EC1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474073961D5173525D0E64782949C039 /* Foundation.framework */; };
+		978F72E36C70B01F92D3A0AEC5ECE3EE /* ViewController+Swinject.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DAEB9B2C856ACCD3628F0D8370BEC /* ViewController+Swinject.swift */; };
+		AD632AB549CFE6CB81B94D19042E6D65 /* SwinjectStoryboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AA2A5C5091FE8D611977D80F26E692 /* SwinjectStoryboardProtocol.swift */; };
+		AD82F53E56264B33822739E4B2071C77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474073961D5173525D0E64782949C039 /* Foundation.framework */; };
+		AEAE73C71D435492AF4F73DF14C860B5 /* FunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A0DB404DECA8081BA4BE8E56DA225 /* FunctionType.swift */; };
 		B1FD2F1C9B31828E0E1BF87B4E427ED0 /* Pods-PizzaFactoryUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C900D4685B996E3DB1832C76323C314D /* Pods-PizzaFactoryUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B37FE4B9842DF67F7BBA7EA4EF04CBFD /* RegistrationNameAssociatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049471A5E37FBB7355C1B0487797ADB1 /* RegistrationNameAssociatable.swift */; };
-		B9429E4A13B9286B8DC0786926E4735D /* SwinjectStoryboardOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97808099A51EBD603B0594CF4267E44B /* SwinjectStoryboardOption.swift */; };
-		BE37CA297746A9C5ABA820FEA61B7333 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EDED8765F4593DE7584E6C85124E64 /* Foundation.framework */; };
-		BEDF101C7CACF35D11FB5C3A8ACA5033 /* Swinject.h in Headers */ = {isa = PBXBuildFile; fileRef = D59F78353906FCFFBBE3066DC7B2743C /* Swinject.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0DA89EC2178A9B8EA0F480483DD7706 /* ServiceEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2056FC024AAE4B1908097BD9B2C596E /* ServiceEntry.swift */; };
-		C34168C47BC73ADC5A920BFA675AAA7C /* Pods-PizzaFactory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C3B981FA2DB177720E1C0B68F78007 /* Pods-PizzaFactory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8D40D81AABF45F346631ECA54A9BD11 /* Swinject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9694AB369DE524CD11E0F65BAC19F11 /* Swinject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8F0DF3DBA800104E3C7864DABDFFFB9 /* SwinjectStoryboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D4A50B02D551F06C11D6718AFAD893 /* SwinjectStoryboard-dummy.m */; };
-		CA3D8964586B20809F9A8F2DB2EFDA0E /* ObjectScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68DADCE5AF2FBD74F1247A518AA53B /* ObjectScope.swift */; };
-		D937E006BFA8C485570177548FA48FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EDED8765F4593DE7584E6C85124E64 /* Foundation.framework */; };
-		D9449966826D04C9A9C44854713B8EA6 /* Container.Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD934E47AE2E43BBCC947D6E8C365F6 /* Container.Logging.swift */; };
-		DE214019595161AD0C5906B53A7612D1 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99E38250EC104FD77FEC9993B0DD16 /* Assembly.swift */; };
-		DF480831642A00041BFA7EE2B58076CC /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E679E849315367967E8034B0C8A424 /* UnavailableItems.swift */; };
-		E460AD8034EC3F648AC246C074851DE2 /* SwinjectStoryboard+StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951D637D03C83637B1476603C4283E07 /* SwinjectStoryboard+StoryboardReference.swift */; };
-		F04FB95663E784AE6E8ABD13610DB1B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EDED8765F4593DE7584E6C85124E64 /* Foundation.framework */; };
-		F0E10E2464C818A683AC184F237EA901 /* SwinjectStoryboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07BDE783E14187FFDFB571F7E3A42B4 /* SwinjectStoryboardProtocol.swift */; };
+		B5AA1A3477EC7400A855CAEBEA7F4816 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5133D109013DA29507590FF163E99D37 /* Resolver.swift */; };
+		B7388E6FBEAB777E8628E27BA2C2BF37 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAAA318B4DF64D57C6B8DEA1C4CA26C /* Container.swift */; };
+		C01C4CC8B9DC7C7C40ABEF2F67C6FAE2 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD79D06DABC1E1274AF66F222B84D7BC /* UnavailableItems.swift */; };
+		C2A237F4861440F88E7660A74CC5F8D1 /* SwinjectStoryboard+StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238F130580319C643DD648592235DDEA /* SwinjectStoryboard+StoryboardReference.swift */; };
+		C2D18C843E21E62114A5913047EF5362 /* _SwinjectStoryboardBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D8A59488A0A5DD429BB7D7D00F7E24D1 /* _SwinjectStoryboardBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73DCF11EA2A650E2D8E62ABE4E2D5ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474073961D5173525D0E64782949C039 /* Foundation.framework */; };
+		C9A22512C094451FF494DD67A16077A7 /* Swinject.h in Headers */ = {isa = PBXBuildFile; fileRef = 371B5442857DB6CE69CEFEBBB4272470 /* Swinject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC0F3B6262F30E2009CF4BEF02519854 /* SpinLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70707CB08393BD278211A114022A35AC /* SpinLock.swift */; };
+		CD577A1170E64C689A323A06256F4EA9 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832BD8030D54D0BC24824BFD0EB3E184 /* UnavailableItems.swift */; };
+		CFE37DF0A2E8FFA2FDE6DDDED8D1D53E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474073961D5173525D0E64782949C039 /* Foundation.framework */; };
+		D859E001A17AC14C2097095788625C1A /* Container.Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE2768D7227F46B38661215B037C28 /* Container.Logging.swift */; };
+		E37071382B366C9E51AEB66D26D3C2AC /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3B9E2D320CDEBACF09067189F6F87A /* SwinjectStoryboard.swift */; };
+		F04FB95663E784AE6E8ABD13610DB1B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 474073961D5173525D0E64782949C039 /* Foundation.framework */; };
 		F23B4C3D70028F73F1CA93F056EC525B /* Pods-PizzaFactoryTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 906345C9866061583AA43E68F8C1179D /* Pods-PizzaFactoryTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F408E1898B5DC61599320DA7387AD555 /* _SwinjectStoryboardBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E52239F15E9B77F007045AA71E3024 /* _SwinjectStoryboardBase.m */; };
-		F54D3F387CBC8D6E5CE988AEC7A1C905 /* Swinject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A0A58BF8FFB4813BCCC7C8EC1641FE /* Swinject-dummy.m */; };
-		F6D3B477F74BBD1E8E9303B232ACB2B7 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34036E2494F778472162112B5981ED7C /* Assembler.swift */; };
-		F8840F2F106AF06FAEDCE6D492087D1A /* DebugHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9CC024DCEDB02BC246415FC16A1AC24 /* DebugHelper.swift */; };
+		F3A69ACD5B44881369E27B2D99BDD5E6 /* Container.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DEB2DB62D1A9C6258FF81F328A62C70 /* Container.Arguments.swift */; };
+		F9C0C8992F78C6EB763D16A161777492 /* _SwinjectStoryboardBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE4AA6F6F9BAF60E269FF22B8620DD /* _SwinjectStoryboardBase.m */; };
 		FC227C89C7901700F95D52AD5B3D1CC3 /* Pods-PizzaFactoryUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFAB537D5D01E6B7E44B46B950BC325 /* Pods-PizzaFactoryUITests-dummy.m */; };
-		FE0B45210423F945F75A20BA1963E8C5 /* Storyboard+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0E02C9463BC8534034A1D37CF665AD /* Storyboard+Swizzling.swift */; };
+		FFB706E19BAE120D21D79DBEA716635A /* Container+SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDDD803E09AD738678F2D170A5FE88F /* Container+SwinjectStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		062A93B09BDF032B50BA755D57A66E2B /* PBXContainerItemProxy */ = {
+		29594A1B5F94B524B8318E5AE4583FB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1CD7144C663B252264413B23D7AEDAD5;
+			remoteGlobalIDString = 298A2DA80BF8F07CE77858308D1F57EB;
 			remoteInfo = SwinjectStoryboard;
 		};
-		0F2B40E6D9F4A5C64E9848DF2DA67DE6 /* PBXContainerItemProxy */ = {
+		9BCA041D37B88FD596FC513618EE4000 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C1E87F6DB32B01F47E024C99C52F5C95;
+			remoteGlobalIDString = 8525E83FFFC2C3DB63AB40E1CC21FD27;
+			remoteInfo = "Toast-Swift";
+		};
+		A90260DE95B5AD094365EB962990B017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0ACBDEFA7B04E93E1C2ABE203C5A712;
 			remoteInfo = Swinject;
 		};
-		415FB896DD3CB5F79D97AD75B0B38E8D /* PBXContainerItemProxy */ = {
+		D650ECA8139DC5A5A9208A7B04EBD447 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C1E87F6DB32B01F47E024C99C52F5C95;
+			remoteGlobalIDString = E0ACBDEFA7B04E93E1C2ABE203C5A712;
 			remoteInfo = Swinject;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049471A5E37FBB7355C1B0487797ADB1 /* RegistrationNameAssociatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegistrationNameAssociatable.swift; path = Sources/RegistrationNameAssociatable.swift; sourceTree = "<group>"; };
+		02EC50BF92CC9DBE4B5E0D84F6134F72 /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwinjectStoryboard.framework; path = SwinjectStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D8BFA1A531B3887E88646C8A132FB8 /* _Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Resolver.swift; path = Sources/_Resolver.swift; sourceTree = "<group>"; };
 		0533888F390A2E1E1FA7176D86348D75 /* Pods-PizzaFactoryUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PizzaFactoryUITests.modulemap"; sourceTree = "<group>"; };
+		0A661F2953F4331CE3F5715A1A884627 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		0B9A0DB404DECA8081BA4BE8E56DA225 /* FunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunctionType.swift; path = Sources/FunctionType.swift; sourceTree = "<group>"; };
+		0BE81F61AC4E975B6F03F7EB71DFAAA9 /* SwinjectStoryboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwinjectStoryboard.modulemap; sourceTree = "<group>"; };
 		0D211104A561C0FE2979BE2D0B0C2037 /* Pods-PizzaFactory-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PizzaFactory-acknowledgements.plist"; sourceTree = "<group>"; };
 		0F21A90EC54FEDA8137C9210914904AB /* Pods-PizzaFactoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PizzaFactoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1113AF48D8E3E7B0B345232EC2330275 /* Pods-PizzaFactoryTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PizzaFactoryTests-frameworks.sh"; sourceTree = "<group>"; };
-		111F820EA03D999CF4BF4239F40020F9 /* SwinjectStoryboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.xcconfig; sourceTree = "<group>"; };
-		15090A195E730268691C53506A362CC2 /* SwinjectStoryboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-prefix.pch"; sourceTree = "<group>"; };
+		135C8E782AEAE31A157600AD1F7B9BD6 /* ObjectScope.Standard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.Standard.swift; path = Sources/ObjectScope.Standard.swift; sourceTree = "<group>"; };
+		13EE56862F1A71A59E80841EE6680223 /* SynchronizedResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.swift; path = Sources/SynchronizedResolver.swift; sourceTree = "<group>"; };
+		159AE39BCBC3AD23D24DDD181DEB107E /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
 		15E3824D5A31E7C4E00F19539AEB0721 /* Pods-PizzaFactoryTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PizzaFactoryTests-resources.sh"; sourceTree = "<group>"; };
-		15E52239F15E9B77F007045AA71E3024 /* _SwinjectStoryboardBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _SwinjectStoryboardBase.m; path = "Sources/iOS-tvOS/_SwinjectStoryboardBase.m"; sourceTree = "<group>"; };
 		19B34544B48F8DB9FAC2ED4C6C5FF266 /* Pods-PizzaFactoryTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PizzaFactoryTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B4BFAB4BA2B2A6A599DC7CADEC95D97 /* ObjectScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.swift; path = Sources/ObjectScope.swift; sourceTree = "<group>"; };
 		1B857EACD65F78740D4ABF88241F9A0F /* Pods-PizzaFactory-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PizzaFactory-resources.sh"; sourceTree = "<group>"; };
 		1BE76C9F3FC240D866FEB2C9E7315DA8 /* Pods-PizzaFactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PizzaFactory.debug.xcconfig"; sourceTree = "<group>"; };
-		1C1B423197A5EB41F1BACF7D983216F3 /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swinject.framework; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5818C2DB85BE78B8F28C0FDA8B4B28 /* Pods-PizzaFactoryTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PizzaFactoryTests.modulemap"; sourceTree = "<group>"; };
-		245410A3C91D9842E7B065923B1B8A00 /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
-		28F4DD6BB6F57A544C9CAFE2CDBE203B /* SpinLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinLock.swift; path = Sources/SpinLock.swift; sourceTree = "<group>"; };
+		209D5D316EDB561814D72C702C4B42AE /* ServiceEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.swift; path = Sources/ServiceEntry.swift; sourceTree = "<group>"; };
+		238F130580319C643DD648592235DDEA /* SwinjectStoryboard+StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwinjectStoryboard+StoryboardReference.swift"; path = "Sources/SwinjectStoryboard+StoryboardReference.swift"; sourceTree = "<group>"; };
+		245E3C5829A32E99D0512DCBD3F6D4AF /* Swinject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Swinject.modulemap; sourceTree = "<group>"; };
+		25F768BB8CC31CC243E12D302674195B /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
 		2AFAB537D5D01E6B7E44B46B950BC325 /* Pods-PizzaFactoryUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PizzaFactoryUITests-dummy.m"; sourceTree = "<group>"; };
-		2D3FE6DAE6026CB61D1086C548B3D041 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboard.swift; path = Sources/SwinjectStoryboard.swift; sourceTree = "<group>"; };
-		3020E7A78183AF09B5CACE16C9D95F30 /* Container+SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Container+SwinjectStoryboard.swift"; path = "Sources/Container+SwinjectStoryboard.swift"; sourceTree = "<group>"; };
+		2DBFF36E37A1403EDCF5401E5A89FDB6 /* Assembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembly.swift; path = Sources/Assembly.swift; sourceTree = "<group>"; };
+		2FD97221C5B0B07EF18F75F4778DCA6D /* InjectionVerifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InjectionVerifiable.swift; path = Sources/InjectionVerifiable.swift; sourceTree = "<group>"; };
 		3247FC35343DC60A56D70F3CA8D1E284 /* Pods-PizzaFactoryTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PizzaFactoryTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		33EED10ADEF7D02A32EF881228FB38A5 /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		34036E2494F778472162112B5981ED7C /* Assembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembler.swift; path = Sources/Assembler.swift; sourceTree = "<group>"; };
-		3D68DADCE5AF2FBD74F1247A518AA53B /* ObjectScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.swift; path = Sources/ObjectScope.swift; sourceTree = "<group>"; };
+		360AB83CEC6E0B5912545FE3310662CC /* Swinject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-prefix.pch"; sourceTree = "<group>"; };
+		36A37C67181022D83A92CE7615A99BBA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3709D6A61F44278F17AE66A7B39FB76B /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swinject.framework; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		371B5442857DB6CE69CEFEBBB4272470 /* Swinject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swinject.h; path = Sources/Swinject.h; sourceTree = "<group>"; };
+		38342783D1C929FA91F95C1B85017EAB /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8B537AC4CF9CF712E26224D91FAF0B /* Swinject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-umbrella.h"; sourceTree = "<group>"; };
+		3BD3B6423F51AFB7DF314DAFE91194DE /* ServiceKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceKey.swift; path = Sources/ServiceKey.swift; sourceTree = "<group>"; };
+		4053E73C98D9464D9E63ABFBAAFB8174 /* Assembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembler.swift; path = Sources/Assembler.swift; sourceTree = "<group>"; };
+		474073961D5173525D0E64782949C039 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		489D975091DAB50A3DD0FF9EF39D31F0 /* Pods-PizzaFactoryUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PizzaFactoryUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49499BEAFC480104ED6EEF48566857F5 /* InstanceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceStorage.swift; path = Sources/InstanceStorage.swift; sourceTree = "<group>"; };
+		4B1D95733D9126C98FFEDCB5DBF97BCB /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		4BEB4D7609EF664A4CF5BE87E87AC218 /* Pods_PizzaFactoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PizzaFactoryTests.framework; path = "Pods-PizzaFactoryTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D50BF01046C75A8BA82EA6313C9CB42 /* Pods-PizzaFactory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PizzaFactory.modulemap"; sourceTree = "<group>"; };
 		4FF5D63257E40B4FED01239FDA337091 /* Pods-PizzaFactoryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PizzaFactoryUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		54A0A58BF8FFB4813BCCC7C8EC1641FE /* Swinject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swinject-dummy.m"; sourceTree = "<group>"; };
+		5133D109013DA29507590FF163E99D37 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
 		58513ED005E485A440FCAFF30E4F0814 /* Pods-PizzaFactory-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PizzaFactory-frameworks.sh"; sourceTree = "<group>"; };
-		5A99E38250EC104FD77FEC9993B0DD16 /* Assembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembly.swift; path = Sources/Assembly.swift; sourceTree = "<group>"; };
-		5AB6F77DD8A0047306E5EB46BE6A9354 /* Swinject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Swinject.modulemap; sourceTree = "<group>"; };
-		60EDED8765F4593DE7584E6C85124E64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		627CB11CE9D13F048B81A5FFA54A263B /* SynchronizedResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.swift; path = Sources/SynchronizedResolver.swift; sourceTree = "<group>"; };
-		69D4A50B02D551F06C11D6718AFAD893 /* SwinjectStoryboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwinjectStoryboard-dummy.m"; sourceTree = "<group>"; };
-		6B0E02C9463BC8534034A1D37CF665AD /* Storyboard+Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Storyboard+Swizzling.swift"; path = "Sources/Storyboard+Swizzling.swift"; sourceTree = "<group>"; };
-		6BDE7B08E7795A93763405CD74B6824E /* _SwinjectStoryboardBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _SwinjectStoryboardBase.h; path = "Sources/iOS-tvOS/_SwinjectStoryboardBase.h"; sourceTree = "<group>"; };
-		74D085608CF4B7E3D9D3D657D471A5A8 /* InjectionVerifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InjectionVerifiable.swift; path = Sources/InjectionVerifiable.swift; sourceTree = "<group>"; };
-		7688CE82B90C1B584AF5380F32A1D4F0 /* _Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Resolver.swift; path = Sources/_Resolver.swift; sourceTree = "<group>"; };
-		7B4F85F53D3E82CD34C146FB2D827B1A /* Pods_PizzaFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PizzaFactory.framework; path = "Pods-PizzaFactory.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DEB2DB62D1A9C6258FF81F328A62C70 /* Container.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Arguments.swift; path = Sources/Container.Arguments.swift; sourceTree = "<group>"; };
+		5EDAFE03066AC454C1D8566265B1CEC1 /* Pods_PizzaFactoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PizzaFactoryUITests.framework; path = "Pods-PizzaFactoryUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70707CB08393BD278211A114022A35AC /* SpinLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinLock.swift; path = Sources/SpinLock.swift; sourceTree = "<group>"; };
 		7B6E83973C7FC396029AEFFF989CB36E /* Pods-PizzaFactoryUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PizzaFactoryUITests-frameworks.sh"; sourceTree = "<group>"; };
-		7E5280F8B64B5C807A0B1BB694884814 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E68F98398128E62A83484E88D9321C0 /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FE2768D7227F46B38661215B037C28 /* Container.Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Logging.swift; path = Sources/Container.Logging.swift; sourceTree = "<group>"; };
+		82825A16CB2349564F380307140AA5BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BB87887405BEAD5D72EEB6CDBBA920 /* Storyboard+Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Storyboard+Swizzling.swift"; path = "Sources/Storyboard+Swizzling.swift"; sourceTree = "<group>"; };
+		832BD8030D54D0BC24824BFD0EB3E184 /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
 		83C3B981FA2DB177720E1C0B68F78007 /* Pods-PizzaFactory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PizzaFactory-umbrella.h"; sourceTree = "<group>"; };
+		86DA496A258066BBBF8907F589FD677C /* SwinjectStoryboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-umbrella.h"; sourceTree = "<group>"; };
 		896A6255C3AFE77B180E7E694D7391BA /* Pods-PizzaFactory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PizzaFactory-dummy.m"; sourceTree = "<group>"; };
-		8A1BCF9C9AC8F4C541DBC9AD65CFF18D /* ObjectScope.Standard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.Standard.swift; path = Sources/ObjectScope.Standard.swift; sourceTree = "<group>"; };
-		8DB8336F01FA13051E489E91667C388E /* ViewController+Swinject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+Swinject.swift"; path = "Sources/ViewController+Swinject.swift"; sourceTree = "<group>"; };
+		8B34DCB8742569A837DAB56EE7D1F108 /* DebugHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugHelper.swift; path = Sources/DebugHelper.swift; sourceTree = "<group>"; };
+		8D700F0B6977490DF0572AFF9DC48C2B /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
 		906345C9866061583AA43E68F8C1179D /* Pods-PizzaFactoryTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PizzaFactoryTests-umbrella.h"; sourceTree = "<group>"; };
 		90A6106E12E88E68B039BFCE015EF99C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93F8168972F40FDEB56299B60AC3E823 /* SynchronizedResolver.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.Arguments.swift; path = Sources/SynchronizedResolver.Arguments.swift; sourceTree = "<group>"; };
-		951D637D03C83637B1476603C4283E07 /* SwinjectStoryboard+StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwinjectStoryboard+StoryboardReference.swift"; path = "Sources/SwinjectStoryboard+StoryboardReference.swift"; sourceTree = "<group>"; };
-		97808099A51EBD603B0594CF4267E44B /* SwinjectStoryboardOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardOption.swift; path = Sources/SwinjectStoryboardOption.swift; sourceTree = "<group>"; };
-		991F235B9A06DB5A80A7AE70BC94182C /* SwinjectStoryboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-umbrella.h"; sourceTree = "<group>"; };
-		9B681F6CCCD1F68E7632EAD40AC616BE /* ServiceKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceKey.swift; path = Sources/ServiceKey.swift; sourceTree = "<group>"; };
-		9BE36707CC80869C7CE72C463C462CA3 /* SwinjectStoryboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwinjectStoryboard.h; path = Sources/SwinjectStoryboard.h; sourceTree = "<group>"; };
-		9F2CABF76B7125CF40150351458D9036 /* InstanceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceStorage.swift; path = Sources/InstanceStorage.swift; sourceTree = "<group>"; };
-		A0FBAF4C1612921401541FB15EC53253 /* Container.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Arguments.swift; path = Sources/Container.Arguments.swift; sourceTree = "<group>"; };
-		A3A246BC3E8B9A14EDACD8F066285D05 /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwinjectStoryboard.framework; path = SwinjectStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4E679E849315367967E8034B0C8A424 /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
-		A85C344EA444B7F5C0D170F41A288A45 /* FunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunctionType.swift; path = Sources/FunctionType.swift; sourceTree = "<group>"; };
-		A99902B8DF2E4DD1899F26F9B5A5B997 /* Swinject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-prefix.pch"; sourceTree = "<group>"; };
-		A9CC024DCEDB02BC246415FC16A1AC24 /* DebugHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugHelper.swift; path = Sources/DebugHelper.swift; sourceTree = "<group>"; };
-		B06EC66A61BDA0D3A96026B22B77DA29 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B31545A0DBA77636C07AB04F30A6BB14 /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/Container.swift; sourceTree = "<group>"; };
-		B61E10DA723063CDF174D2ED6C8BC8FD /* Swinject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.xcconfig; sourceTree = "<group>"; };
-		B6F3A764B0F1D925FD4BF50995544A9C /* Pods_PizzaFactoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PizzaFactoryUITests.framework; path = "Pods-PizzaFactoryUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9694AB369DE524CD11E0F65BAC19F11 /* Swinject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-umbrella.h"; sourceTree = "<group>"; };
-		BC13D8536A45B24535D226F351D5BADA /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		9A3BF9A96C9F3B478912826330040A61 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		9C9C261151003B6EA7A2A3C91CE3E6E8 /* SwinjectStoryboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.xcconfig; sourceTree = "<group>"; };
+		9E52CB6FC693F74A88B0AD512F4427DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A03EE2CC356D8C2303F54E7485BD5141 /* Swinject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swinject-dummy.m"; sourceTree = "<group>"; };
+		A84FF8BB6A57DEC7F84EE8CA3D851363 /* SwinjectStoryboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-prefix.pch"; sourceTree = "<group>"; };
+		A8AA2A5C5091FE8D611977D80F26E692 /* SwinjectStoryboardProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardProtocol.swift; path = Sources/SwinjectStoryboardProtocol.swift; sourceTree = "<group>"; };
+		AD79D06DABC1E1274AF66F222B84D7BC /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
+		ADAE4AA6F6F9BAF60E269FF22B8620DD /* _SwinjectStoryboardBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _SwinjectStoryboardBase.m; path = "Sources/iOS-tvOS/_SwinjectStoryboardBase.m"; sourceTree = "<group>"; };
+		B0CC0E0C784CA33CFB586D919612EEA9 /* SwinjectStoryboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwinjectStoryboard.h; path = Sources/SwinjectStoryboard.h; sourceTree = "<group>"; };
+		B3D0B0EFA04CCE2B1640DC978F2D3D68 /* SwinjectStoryboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwinjectStoryboard-dummy.m"; sourceTree = "<group>"; };
 		BE8ED17424BA6BA7EB950297FB0C37D3 /* Pods-PizzaFactoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PizzaFactoryTests.release.xcconfig"; sourceTree = "<group>"; };
-		BFC0FA5972ED84B73C081686134B7E0C /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
-		C781597E222292FD54F926DC3C693E08 /* SwinjectStoryboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwinjectStoryboard.modulemap; sourceTree = "<group>"; };
+		C6C25E95DB1BE15264C99D1E090E5B4A /* RegistrationNameAssociatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegistrationNameAssociatable.swift; path = Sources/RegistrationNameAssociatable.swift; sourceTree = "<group>"; };
 		C900D4685B996E3DB1832C76323C314D /* Pods-PizzaFactoryUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PizzaFactoryUITests-umbrella.h"; sourceTree = "<group>"; };
+		C95A9BB865E3CD0EA14B6B4877DB24D6 /* SynchronizedResolver.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.Arguments.swift; path = Sources/SynchronizedResolver.Arguments.swift; sourceTree = "<group>"; };
+		CBAAA318B4DF64D57C6B8DEA1C4CA26C /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/Container.swift; sourceTree = "<group>"; };
 		CD1ECE922C6FE4AC3D7C8FDC6CFA0E08 /* Pods-PizzaFactoryUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PizzaFactoryUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CDBC4C25B5F29D89B123BFE2CA6C843F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFD934E47AE2E43BBCC947D6E8C365F6 /* Container.Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Logging.swift; path = Sources/Container.Logging.swift; sourceTree = "<group>"; };
 		D1277D49700997FC66C169B777DCADF9 /* Pods-PizzaFactory-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PizzaFactory-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D59F78353906FCFFBBE3066DC7B2743C /* Swinject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swinject.h; path = Sources/Swinject.h; sourceTree = "<group>"; };
+		D8A59488A0A5DD429BB7D7D00F7E24D1 /* _SwinjectStoryboardBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _SwinjectStoryboardBase.h; path = "Sources/iOS-tvOS/_SwinjectStoryboardBase.h"; sourceTree = "<group>"; };
 		DA8DAC80C9390CF106E8296F03B70140 /* Pods-PizzaFactoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PizzaFactoryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB9C94DDE936A27C4B1928EEB0E01364 /* Pods-PizzaFactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PizzaFactory.release.xcconfig"; sourceTree = "<group>"; };
-		E2056FC024AAE4B1908097BD9B2C596E /* ServiceEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.swift; path = Sources/ServiceEntry.swift; sourceTree = "<group>"; };
+		E49D66EE32D922D6957B4AB4519FF71E /* SwinjectStoryboardOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardOption.swift; path = Sources/SwinjectStoryboardOption.swift; sourceTree = "<group>"; };
+		E80DAEB9B2C856ACCD3628F0D8370BEC /* ViewController+Swinject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+Swinject.swift"; path = "Sources/ViewController+Swinject.swift"; sourceTree = "<group>"; };
 		E90D64DB7503F3926D487E566E7D2952 /* Pods-PizzaFactoryUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PizzaFactoryUITests-resources.sh"; sourceTree = "<group>"; };
-		F07BDE783E14187FFDFB571F7E3A42B4 /* SwinjectStoryboardProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardProtocol.swift; path = Sources/SwinjectStoryboardProtocol.swift; sourceTree = "<group>"; };
 		F154A78F1A6F29142F76F9FC7405D61A /* Pods-PizzaFactoryTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PizzaFactoryTests-dummy.m"; sourceTree = "<group>"; };
 		F4EE8A2C0DC3047A6823F67F9631C2F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC54EEC960686CC9314DA1594C04ED33 /* Pods_PizzaFactoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PizzaFactoryTests.framework; path = "Pods-PizzaFactoryTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78458D286D715DB86AD10109F2B2381 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		F974BDDA326A4BD85A852EA7BD34A687 /* Swinject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.xcconfig; sourceTree = "<group>"; };
+		FAF8F80616F14DE2F5A5C06F6D2FB153 /* Pods_PizzaFactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PizzaFactory.framework; path = "Pods-PizzaFactory.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3B9E2D320CDEBACF09067189F6F87A /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboard.swift; path = Sources/SwinjectStoryboard.swift; sourceTree = "<group>"; };
+		FCD997D30E0F301CD3A84501E9DF4AD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCDDD803E09AD738678F2D170A5FE88F /* Container+SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Container+SwinjectStoryboard.swift"; path = "Sources/Container+SwinjectStoryboard.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B114DBF416C8369344BDDDCEFB9649A /* Frameworks */ = {
+		25F16AA8ACA0BE16EB96C0B45E775CE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662D420253C3A5EDF3E442573806231D /* Foundation.framework in Frameworks */,
+				942A216F48F3D2862D7677FDDB17EC1A /* Foundation.framework in Frameworks */,
+				59D2C730B390E13FD7C1F4CBD40E50E6 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3661523B4F42964C877E1E1BFE41858B /* Frameworks */ = {
+		33D5C7C41B0F3565296CD5519DA05579 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE37CA297746A9C5ABA820FEA61B7333 /* Foundation.framework in Frameworks */,
+				CFE37DF0A2E8FFA2FDE6DDDED8D1D53E /* Foundation.framework in Frameworks */,
+				1A6D642C1F3EA39B2BD545095AF3956D /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,15 +216,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		475E55B4F739D67EF5DE41B27B5ED41B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D937E006BFA8C485570177548FA48FF7 /* Foundation.framework in Frameworks */,
-				64E3048DE911436EB6ED93C84BA66358 /* Swinject.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F4951676F9CEE7BCDC9ECC15FEAD57A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -210,16 +224,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF04330A12CFA48B419F332CF2A8BEB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD82F53E56264B33822739E4B2071C77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60D17601E34F67EEBA29E752026C2FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73DCF11EA2A650E2D8E62ABE4E2D5ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0211FCF4AC3D6284EC31D4563A0BF060 /* Pods */ = {
+		09CD0E7D7B812CA6A27C3909A68FBBDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C01F10B667124B25F8DB804519B0E6AA /* Swinject */,
-				7E0AA978F1FF9726557789E9556ED983 /* SwinjectStoryboard */,
+				FAF8F80616F14DE2F5A5C06F6D2FB153 /* Pods_PizzaFactory.framework */,
+				4BEB4D7609EF664A4CF5BE87E87AC218 /* Pods_PizzaFactoryTests.framework */,
+				5EDAFE03066AC454C1D8566265B1CEC1 /* Pods_PizzaFactoryUITests.framework */,
+				3709D6A61F44278F17AE66A7B39FB76B /* Swinject.framework */,
+				02EC50BF92CC9DBE4B5E0D84F6134F72 /* SwinjectStoryboard.framework */,
+				38342783D1C929FA91F95C1B85017EAB /* Toast_Swift.framework */,
 			);
-			name = Pods;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C54D9D8773C4DAE4176082A58ED17B5 /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4B1D95733D9126C98FFEDCB5DBF97BCB /* Toast.swift */,
+				77202D0350C6C6D94430245BE81A9ED0 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
 			sourceTree = "<group>";
 		};
 		2D8E0BD1BB48F79C8861A4E53E99A986 /* Targets Support Files */ = {
@@ -232,18 +276,37 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4226CF3C5607A41823711FBFF5B673DB /* Support Files */ = {
+		3CFCBCA4616CF0CE5E2FB094CDBA8410 /* SwinjectStoryboard */ = {
 			isa = PBXGroup;
 			children = (
-				B06EC66A61BDA0D3A96026B22B77DA29 /* Info.plist */,
-				C781597E222292FD54F926DC3C693E08 /* SwinjectStoryboard.modulemap */,
-				111F820EA03D999CF4BF4239F40020F9 /* SwinjectStoryboard.xcconfig */,
-				69D4A50B02D551F06C11D6718AFAD893 /* SwinjectStoryboard-dummy.m */,
-				15090A195E730268691C53506A362CC2 /* SwinjectStoryboard-prefix.pch */,
-				991F235B9A06DB5A80A7AE70BC94182C /* SwinjectStoryboard-umbrella.h */,
+				D8A59488A0A5DD429BB7D7D00F7E24D1 /* _SwinjectStoryboardBase.h */,
+				ADAE4AA6F6F9BAF60E269FF22B8620DD /* _SwinjectStoryboardBase.m */,
+				25F768BB8CC31CC243E12D302674195B /* Box.swift */,
+				FCDDD803E09AD738678F2D170A5FE88F /* Container+SwinjectStoryboard.swift */,
+				2FD97221C5B0B07EF18F75F4778DCA6D /* InjectionVerifiable.swift */,
+				C6C25E95DB1BE15264C99D1E090E5B4A /* RegistrationNameAssociatable.swift */,
+				82BB87887405BEAD5D72EEB6CDBBA920 /* Storyboard+Swizzling.swift */,
+				B0CC0E0C784CA33CFB586D919612EEA9 /* SwinjectStoryboard.h */,
+				FB3B9E2D320CDEBACF09067189F6F87A /* SwinjectStoryboard.swift */,
+				238F130580319C643DD648592235DDEA /* SwinjectStoryboard+StoryboardReference.swift */,
+				E49D66EE32D922D6957B4AB4519FF71E /* SwinjectStoryboardOption.swift */,
+				A8AA2A5C5091FE8D611977D80F26E692 /* SwinjectStoryboardProtocol.swift */,
+				832BD8030D54D0BC24824BFD0EB3E184 /* UnavailableItems.swift */,
+				E80DAEB9B2C856ACCD3628F0D8370BEC /* ViewController+Swinject.swift */,
+				C8BE7ABE53AA3B0A927288BFB0AF5CAA /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SwinjectStoryboard";
+			name = SwinjectStoryboard;
+			path = SwinjectStoryboard;
+			sourceTree = "<group>";
+		};
+		3E5C552CA56EE06A977AD8EAFDD3DECB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E018FC6C1814BD56C27C14126B6DCAAA /* Swinject */,
+				3CFCBCA4616CF0CE5E2FB094CDBA8410 /* SwinjectStoryboard */,
+				2C54D9D8773C4DAE4176082A58ED17B5 /* Toast-Swift */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		65540239B6442F1DB65127292727B3DA /* Pods-PizzaFactoryTests */ = {
@@ -264,38 +327,52 @@
 			path = "Target Support Files/Pods-PizzaFactoryTests";
 			sourceTree = "<group>";
 		};
+		77202D0350C6C6D94430245BE81A9ED0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36A37C67181022D83A92CE7615A99BBA /* Info.plist */,
+				8D700F0B6977490DF0572AFF9DC48C2B /* Toast-Swift.modulemap */,
+				9A3BF9A96C9F3B478912826330040A61 /* Toast-Swift.xcconfig */,
+				0A661F2953F4331CE3F5715A1A884627 /* Toast-Swift-dummy.m */,
+				F78458D286D715DB86AD10109F2B2381 /* Toast-Swift-prefix.pch */,
+				159AE39BCBC3AD23D24DDD181DEB107E /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DADE99249BB4F3D279575DCDD6BF00D3 /* Frameworks */,
-				0211FCF4AC3D6284EC31D4563A0BF060 /* Pods */,
-				C13A6642599FF03D5B3ABE76FEA60F4A /* Products */,
+				B6D6CB8346EFDC8E1E54A3C927241E49 /* Frameworks */,
+				3E5C552CA56EE06A977AD8EAFDD3DECB /* Pods */,
+				09CD0E7D7B812CA6A27C3909A68FBBDC /* Products */,
 				2D8E0BD1BB48F79C8861A4E53E99A986 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7E0AA978F1FF9726557789E9556ED983 /* SwinjectStoryboard */ = {
+		7DC3BD9B35F4D55A0491DC6D5C47F4BB /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				6BDE7B08E7795A93763405CD74B6824E /* _SwinjectStoryboardBase.h */,
-				15E52239F15E9B77F007045AA71E3024 /* _SwinjectStoryboardBase.m */,
-				BC13D8536A45B24535D226F351D5BADA /* Box.swift */,
-				3020E7A78183AF09B5CACE16C9D95F30 /* Container+SwinjectStoryboard.swift */,
-				74D085608CF4B7E3D9D3D657D471A5A8 /* InjectionVerifiable.swift */,
-				049471A5E37FBB7355C1B0487797ADB1 /* RegistrationNameAssociatable.swift */,
-				6B0E02C9463BC8534034A1D37CF665AD /* Storyboard+Swizzling.swift */,
-				9BE36707CC80869C7CE72C463C462CA3 /* SwinjectStoryboard.h */,
-				2D3FE6DAE6026CB61D1086C548B3D041 /* SwinjectStoryboard.swift */,
-				951D637D03C83637B1476603C4283E07 /* SwinjectStoryboard+StoryboardReference.swift */,
-				97808099A51EBD603B0594CF4267E44B /* SwinjectStoryboardOption.swift */,
-				F07BDE783E14187FFDFB571F7E3A42B4 /* SwinjectStoryboardProtocol.swift */,
-				245410A3C91D9842E7B065923B1B8A00 /* UnavailableItems.swift */,
-				8DB8336F01FA13051E489E91667C388E /* ViewController+Swinject.swift */,
-				4226CF3C5607A41823711FBFF5B673DB /* Support Files */,
+				474073961D5173525D0E64782949C039 /* Foundation.framework */,
+				9E52CB6FC693F74A88B0AD512F4427DC /* QuartzCore.framework */,
 			);
-			name = SwinjectStoryboard;
-			path = SwinjectStoryboard;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A4BAB7055D37152AA04C2D47347F48AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82825A16CB2349564F380307140AA5BD /* Info.plist */,
+				245E3C5829A32E99D0512DCBD3F6D4AF /* Swinject.modulemap */,
+				F974BDDA326A4BD85A852EA7BD34A687 /* Swinject.xcconfig */,
+				A03EE2CC356D8C2303F54E7485BD5141 /* Swinject-dummy.m */,
+				360AB83CEC6E0B5912545FE3310662CC /* Swinject-prefix.pch */,
+				3A8B537AC4CF9CF712E26224D91FAF0B /* Swinject-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swinject";
 			sourceTree = "<group>";
 		};
 		B32EFFB790BFE052CB57072C5FB4D6FC /* Pods-PizzaFactory */ = {
@@ -316,58 +393,27 @@
 			path = "Target Support Files/Pods-PizzaFactory";
 			sourceTree = "<group>";
 		};
-		C01F10B667124B25F8DB804519B0E6AA /* Swinject */ = {
+		B6D6CB8346EFDC8E1E54A3C927241E49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7688CE82B90C1B584AF5380F32A1D4F0 /* _Resolver.swift */,
-				34036E2494F778472162112B5981ED7C /* Assembler.swift */,
-				5A99E38250EC104FD77FEC9993B0DD16 /* Assembly.swift */,
-				B31545A0DBA77636C07AB04F30A6BB14 /* Container.swift */,
-				A0FBAF4C1612921401541FB15EC53253 /* Container.Arguments.swift */,
-				CFD934E47AE2E43BBCC947D6E8C365F6 /* Container.Logging.swift */,
-				A9CC024DCEDB02BC246415FC16A1AC24 /* DebugHelper.swift */,
-				A85C344EA444B7F5C0D170F41A288A45 /* FunctionType.swift */,
-				9F2CABF76B7125CF40150351458D9036 /* InstanceStorage.swift */,
-				3D68DADCE5AF2FBD74F1247A518AA53B /* ObjectScope.swift */,
-				8A1BCF9C9AC8F4C541DBC9AD65CFF18D /* ObjectScope.Standard.swift */,
-				BFC0FA5972ED84B73C081686134B7E0C /* Resolver.swift */,
-				E2056FC024AAE4B1908097BD9B2C596E /* ServiceEntry.swift */,
-				9B681F6CCCD1F68E7632EAD40AC616BE /* ServiceKey.swift */,
-				28F4DD6BB6F57A544C9CAFE2CDBE203B /* SpinLock.swift */,
-				D59F78353906FCFFBBE3066DC7B2743C /* Swinject.h */,
-				627CB11CE9D13F048B81A5FFA54A263B /* SynchronizedResolver.swift */,
-				93F8168972F40FDEB56299B60AC3E823 /* SynchronizedResolver.Arguments.swift */,
-				A4E679E849315367967E8034B0C8A424 /* UnavailableItems.swift */,
-				C1C5776894A9A4C34436A4E8863868BA /* Support Files */,
+				7E68F98398128E62A83484E88D9321C0 /* Swinject.framework */,
+				7DC3BD9B35F4D55A0491DC6D5C47F4BB /* iOS */,
 			);
-			name = Swinject;
-			path = Swinject;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C13A6642599FF03D5B3ABE76FEA60F4A /* Products */ = {
+		C8BE7ABE53AA3B0A927288BFB0AF5CAA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7B4F85F53D3E82CD34C146FB2D827B1A /* Pods_PizzaFactory.framework */,
-				FC54EEC960686CC9314DA1594C04ED33 /* Pods_PizzaFactoryTests.framework */,
-				B6F3A764B0F1D925FD4BF50995544A9C /* Pods_PizzaFactoryUITests.framework */,
-				1C1B423197A5EB41F1BACF7D983216F3 /* Swinject.framework */,
-				A3A246BC3E8B9A14EDACD8F066285D05 /* SwinjectStoryboard.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C1C5776894A9A4C34436A4E8863868BA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7E5280F8B64B5C807A0B1BB694884814 /* Info.plist */,
-				5AB6F77DD8A0047306E5EB46BE6A9354 /* Swinject.modulemap */,
-				B61E10DA723063CDF174D2ED6C8BC8FD /* Swinject.xcconfig */,
-				54A0A58BF8FFB4813BCCC7C8EC1641FE /* Swinject-dummy.m */,
-				A99902B8DF2E4DD1899F26F9B5A5B997 /* Swinject-prefix.pch */,
-				B9694AB369DE524CD11E0F65BAC19F11 /* Swinject-umbrella.h */,
+				FCD997D30E0F301CD3A84501E9DF4AD0 /* Info.plist */,
+				0BE81F61AC4E975B6F03F7EB71DFAAA9 /* SwinjectStoryboard.modulemap */,
+				9C9C261151003B6EA7A2A3C91CE3E6E8 /* SwinjectStoryboard.xcconfig */,
+				B3D0B0EFA04CCE2B1640DC978F2D3D68 /* SwinjectStoryboard-dummy.m */,
+				A84FF8BB6A57DEC7F84EE8CA3D851363 /* SwinjectStoryboard-prefix.pch */,
+				86DA496A258066BBBF8907F589FD677C /* SwinjectStoryboard-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Swinject";
+			path = "../Target Support Files/SwinjectStoryboard";
 			sourceTree = "<group>";
 		};
 		D78DBCCB6D13047DDDA700C5CB0C93EF /* Pods-PizzaFactoryUITests */ = {
@@ -388,50 +434,43 @@
 			path = "Target Support Files/Pods-PizzaFactoryUITests";
 			sourceTree = "<group>";
 		};
-		DADE99249BB4F3D279575DCDD6BF00D3 /* Frameworks */ = {
+		E018FC6C1814BD56C27C14126B6DCAAA /* Swinject */ = {
 			isa = PBXGroup;
 			children = (
-				33EED10ADEF7D02A32EF881228FB38A5 /* Swinject.framework */,
-				F12F8CEB50F2708F03202D4ACF92EF4C /* iOS */,
+				04D8BFA1A531B3887E88646C8A132FB8 /* _Resolver.swift */,
+				4053E73C98D9464D9E63ABFBAAFB8174 /* Assembler.swift */,
+				2DBFF36E37A1403EDCF5401E5A89FDB6 /* Assembly.swift */,
+				CBAAA318B4DF64D57C6B8DEA1C4CA26C /* Container.swift */,
+				5DEB2DB62D1A9C6258FF81F328A62C70 /* Container.Arguments.swift */,
+				80FE2768D7227F46B38661215B037C28 /* Container.Logging.swift */,
+				8B34DCB8742569A837DAB56EE7D1F108 /* DebugHelper.swift */,
+				0B9A0DB404DECA8081BA4BE8E56DA225 /* FunctionType.swift */,
+				49499BEAFC480104ED6EEF48566857F5 /* InstanceStorage.swift */,
+				1B4BFAB4BA2B2A6A599DC7CADEC95D97 /* ObjectScope.swift */,
+				135C8E782AEAE31A157600AD1F7B9BD6 /* ObjectScope.Standard.swift */,
+				5133D109013DA29507590FF163E99D37 /* Resolver.swift */,
+				209D5D316EDB561814D72C702C4B42AE /* ServiceEntry.swift */,
+				3BD3B6423F51AFB7DF314DAFE91194DE /* ServiceKey.swift */,
+				70707CB08393BD278211A114022A35AC /* SpinLock.swift */,
+				371B5442857DB6CE69CEFEBBB4272470 /* Swinject.h */,
+				13EE56862F1A71A59E80841EE6680223 /* SynchronizedResolver.swift */,
+				C95A9BB865E3CD0EA14B6B4877DB24D6 /* SynchronizedResolver.Arguments.swift */,
+				AD79D06DABC1E1274AF66F222B84D7BC /* UnavailableItems.swift */,
+				A4BAB7055D37152AA04C2D47347F48AD /* Support Files */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F12F8CEB50F2708F03202D4ACF92EF4C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				60EDED8765F4593DE7584E6C85124E64 /* Foundation.framework */,
-			);
-			name = iOS;
+			name = Swinject;
+			path = Swinject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3E40FDC4FEA1F381A387D7E5D88A9727 /* Headers */ = {
+		44D050E7446F6FB8348F2D22963DBA87 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8D40D81AABF45F346631ECA54A9BD11 /* Swinject-umbrella.h in Headers */,
-				BEDF101C7CACF35D11FB5C3A8ACA5033 /* Swinject.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5965AEB7A2EBAC3D07F5CDA07000E5AD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C34168C47BC73ADC5A920BFA675AAA7C /* Pods-PizzaFactory-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8066B5B5BF08654B4B6E33FA980E9193 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23DE4198CE14365D84B8964A09E162F4 /* _SwinjectStoryboardBase.h in Headers */,
-				8651C571184056587BFEE61CA13F099C /* SwinjectStoryboard-umbrella.h in Headers */,
-				6627AABE1D33FB271853FABA15FF37AA /* SwinjectStoryboard.h in Headers */,
+				4411200B7732FA4328A8AB8D57FB293E /* Swinject-umbrella.h in Headers */,
+				C9A22512C094451FF494DD67A16077A7 /* Swinject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +482,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFAD01E0F1DFFFC59F7D4BE8D76FDC37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				850953DD5236F4A7C629B4DFD497889A /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F16AF609958A2910C8FE0E37D1FF2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A97A535566657CFC27E9CE1CE4DC40F /* Pods-PizzaFactory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B561CBB3FE49D7C8114B8D060A60E411 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -451,44 +506,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1601083BCC3620C1682CBBFABC40476 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2D18C843E21E62114A5913047EF5362 /* _SwinjectStoryboardBase.h in Headers */,
+				5F71479314EB53038B653FBE3F2A397B /* SwinjectStoryboard-umbrella.h in Headers */,
+				87613D6380E2F913F328A12A6A8309B6 /* SwinjectStoryboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1CD7144C663B252264413B23D7AEDAD5 /* SwinjectStoryboard */ = {
+		298A2DA80BF8F07CE77858308D1F57EB /* SwinjectStoryboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 799454F66593D324A60D89C8B90AB7CC /* Build configuration list for PBXNativeTarget "SwinjectStoryboard" */;
+			buildConfigurationList = 9F42DE2F91E3685219D70C63CB3B79E0 /* Build configuration list for PBXNativeTarget "SwinjectStoryboard" */;
 			buildPhases = (
-				A1E4E0EFFFAA34C76539205EBB47E1FB /* Sources */,
-				475E55B4F739D67EF5DE41B27B5ED41B /* Frameworks */,
-				8066B5B5BF08654B4B6E33FA980E9193 /* Headers */,
+				8F45653633D8943E81C67577B4C39164 /* Sources */,
+				33D5C7C41B0F3565296CD5519DA05579 /* Frameworks */,
+				D1601083BCC3620C1682CBBFABC40476 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7A56749CB43A417E9BE4E21DBC3C3615 /* PBXTargetDependency */,
+				F5E106F74906AAAD674F69F9838869C8 /* PBXTargetDependency */,
 			);
 			name = SwinjectStoryboard;
 			productName = SwinjectStoryboard;
-			productReference = A3A246BC3E8B9A14EDACD8F066285D05 /* SwinjectStoryboard.framework */;
+			productReference = 02EC50BF92CC9DBE4B5E0D84F6134F72 /* SwinjectStoryboard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		545CD1CE8F43B71A4AF36F8E9065275E /* Pods-PizzaFactory */ = {
+		8525E83FFFC2C3DB63AB40E1CC21FD27 /* Toast-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 996ECCB4C5675394EB887D39C1D61A43 /* Build configuration list for PBXNativeTarget "Pods-PizzaFactory" */;
+			buildConfigurationList = A3D29943E8AAFADA217658A9F8D2F243 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
 			buildPhases = (
-				71B9A679EF19ADF43668D80083AF52F8 /* Sources */,
-				1B114DBF416C8369344BDDDCEFB9649A /* Frameworks */,
-				5965AEB7A2EBAC3D07F5CDA07000E5AD /* Headers */,
+				01CE29A5B9DA0C1B0761409CB36693CD /* Sources */,
+				25F16AA8ACA0BE16EB96C0B45E775CE5 /* Frameworks */,
+				AFAD01E0F1DFFFC59F7D4BE8D76FDC37 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3FFFA486C6BFCCF77E87063D0A4D2DBE /* PBXTargetDependency */,
-				27957740E428AD7678450852446BAAEA /* PBXTargetDependency */,
 			);
-			name = "Pods-PizzaFactory";
-			productName = "Pods-PizzaFactory";
-			productReference = 7B4F85F53D3E82CD34C146FB2D827B1A /* Pods_PizzaFactory.framework */;
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = 38342783D1C929FA91F95C1B85017EAB /* Toast_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9CB20741DB974EC22C83304D7F79F176 /* Pods-PizzaFactoryTests */ = {
@@ -505,16 +568,16 @@
 			);
 			name = "Pods-PizzaFactoryTests";
 			productName = "Pods-PizzaFactoryTests";
-			productReference = FC54EEC960686CC9314DA1594C04ED33 /* Pods_PizzaFactoryTests.framework */;
+			productReference = 4BEB4D7609EF664A4CF5BE87E87AC218 /* Pods_PizzaFactoryTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C1E87F6DB32B01F47E024C99C52F5C95 /* Swinject */ = {
+		E0ACBDEFA7B04E93E1C2ABE203C5A712 /* Swinject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6102A0B883E0FDA1CAE8E91B509C179 /* Build configuration list for PBXNativeTarget "Swinject" */;
+			buildConfigurationList = 5149736C024D12FF5570E23340801D59 /* Build configuration list for PBXNativeTarget "Swinject" */;
 			buildPhases = (
-				016BB13D394D4BC4358D94FCFB1D8CDF /* Sources */,
-				3661523B4F42964C877E1E1BFE41858B /* Frameworks */,
-				3E40FDC4FEA1F381A387D7E5D88A9727 /* Headers */,
+				971D6C340F001FCD36628DEE68E3D692 /* Sources */,
+				D60D17601E34F67EEBA29E752026C2FB /* Frameworks */,
+				44D050E7446F6FB8348F2D22963DBA87 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -522,7 +585,7 @@
 			);
 			name = Swinject;
 			productName = Swinject;
-			productReference = 1C1B423197A5EB41F1BACF7D983216F3 /* Swinject.framework */;
+			productReference = 3709D6A61F44278F17AE66A7B39FB76B /* Swinject.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F3B732A2BE731FEDF7E67927611DEE7B /* Pods-PizzaFactoryUITests */ = {
@@ -539,7 +602,27 @@
 			);
 			name = "Pods-PizzaFactoryUITests";
 			productName = "Pods-PizzaFactoryUITests";
-			productReference = B6F3A764B0F1D925FD4BF50995544A9C /* Pods_PizzaFactoryUITests.framework */;
+			productReference = 5EDAFE03066AC454C1D8566265B1CEC1 /* Pods_PizzaFactoryUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F599781E5B207288E68DB633CF7E43DA /* Pods-PizzaFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3394256CA53CB2DE33FC2488131AD85C /* Build configuration list for PBXNativeTarget "Pods-PizzaFactory" */;
+			buildPhases = (
+				35FDEE4CB91FA8D6A39B640346AA26B4 /* Sources */,
+				AF04330A12CFA48B419F332CF2A8BEB4 /* Frameworks */,
+				B1F16AF609958A2910C8FE0E37D1FF2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB58F27AF865FADF1332E7DC2FCE35E /* PBXTargetDependency */,
+				5251D12AB98FBF4FA0489FD10E014A10 /* PBXTargetDependency */,
+				79CEA87D54F2EE639994B532AD1449DD /* PBXTargetDependency */,
+			);
+			name = "Pods-PizzaFactory";
+			productName = "Pods-PizzaFactory";
+			productReference = FAF8F80616F14DE2F5A5C06F6D2FB153 /* Pods_PizzaFactory.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -559,51 +642,35 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C13A6642599FF03D5B3ABE76FEA60F4A /* Products */;
+			productRefGroup = 09CD0E7D7B812CA6A27C3909A68FBBDC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				545CD1CE8F43B71A4AF36F8E9065275E /* Pods-PizzaFactory */,
+				F599781E5B207288E68DB633CF7E43DA /* Pods-PizzaFactory */,
 				9CB20741DB974EC22C83304D7F79F176 /* Pods-PizzaFactoryTests */,
 				F3B732A2BE731FEDF7E67927611DEE7B /* Pods-PizzaFactoryUITests */,
-				C1E87F6DB32B01F47E024C99C52F5C95 /* Swinject */,
-				1CD7144C663B252264413B23D7AEDAD5 /* SwinjectStoryboard */,
+				E0ACBDEFA7B04E93E1C2ABE203C5A712 /* Swinject */,
+				298A2DA80BF8F07CE77858308D1F57EB /* SwinjectStoryboard */,
+				8525E83FFFC2C3DB63AB40E1CC21FD27 /* Toast-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		016BB13D394D4BC4358D94FCFB1D8CDF /* Sources */ = {
+		01CE29A5B9DA0C1B0761409CB36693CD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6996F2183D6C27470AC930D14C0987F6 /* _Resolver.swift in Sources */,
-				F6D3B477F74BBD1E8E9303B232ACB2B7 /* Assembler.swift in Sources */,
-				DE214019595161AD0C5906B53A7612D1 /* Assembly.swift in Sources */,
-				4A0FE87BD8FF42018A9A3D4C5F46E03E /* Container.Arguments.swift in Sources */,
-				D9449966826D04C9A9C44854713B8EA6 /* Container.Logging.swift in Sources */,
-				4D7CF5E3CD379D99801D7D34694C6AA0 /* Container.swift in Sources */,
-				F8840F2F106AF06FAEDCE6D492087D1A /* DebugHelper.swift in Sources */,
-				93A6F989CC5CE91CAD821DF0174B014E /* FunctionType.swift in Sources */,
-				341CB1677677BEEDAA253CC25A45DA5B /* InstanceStorage.swift in Sources */,
-				9A7F50B0D62702A7CFA6FD26E5D07EC0 /* ObjectScope.Standard.swift in Sources */,
-				CA3D8964586B20809F9A8F2DB2EFDA0E /* ObjectScope.swift in Sources */,
-				388C52A56A2DC255914373024EE4D29D /* Resolver.swift in Sources */,
-				C0DA89EC2178A9B8EA0F480483DD7706 /* ServiceEntry.swift in Sources */,
-				618DE81AB6F5222DED301DDBAE90EFB9 /* ServiceKey.swift in Sources */,
-				29E0D2FFEB784783BBF02AC5B1C69806 /* SpinLock.swift in Sources */,
-				F54D3F387CBC8D6E5CE988AEC7A1C905 /* Swinject-dummy.m in Sources */,
-				5DBE96B0FAD4A9219AC0CAFF3D2A776C /* SynchronizedResolver.Arguments.swift in Sources */,
-				A6B1469A989B9AA5B84CBFBC77637835 /* SynchronizedResolver.swift in Sources */,
-				DF480831642A00041BFA7EE2B58076CC /* UnavailableItems.swift in Sources */,
+				227FA642DEFE0A0C319994944DA58678 /* Toast-Swift-dummy.m in Sources */,
+				6ADBDF5C1FE0469580CA996C655774A6 /* Toast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71B9A679EF19ADF43668D80083AF52F8 /* Sources */ = {
+		35FDEE4CB91FA8D6A39B640346AA26B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24A084DB719E9978A3AA48822FDDC84C /* Pods-PizzaFactory-dummy.m in Sources */,
+				24742DF93849429127682B6C75BE4D44 /* Pods-PizzaFactory-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,23 +682,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1E4E0EFFFAA34C76539205EBB47E1FB /* Sources */ = {
+		8F45653633D8943E81C67577B4C39164 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F408E1898B5DC61599320DA7387AD555 /* _SwinjectStoryboardBase.m in Sources */,
-				AA00257069F86C78641FC691C022578B /* Box.swift in Sources */,
-				4FFA4A310CE2B92E3228534943692D7B /* Container+SwinjectStoryboard.swift in Sources */,
-				972878270E6B013E2F08080A806CA3BA /* InjectionVerifiable.swift in Sources */,
-				B37FE4B9842DF67F7BBA7EA4EF04CBFD /* RegistrationNameAssociatable.swift in Sources */,
-				FE0B45210423F945F75A20BA1963E8C5 /* Storyboard+Swizzling.swift in Sources */,
-				E460AD8034EC3F648AC246C074851DE2 /* SwinjectStoryboard+StoryboardReference.swift in Sources */,
-				C8F0DF3DBA800104E3C7864DABDFFFB9 /* SwinjectStoryboard-dummy.m in Sources */,
-				0EC14EBFB1B3A9BBB69ACADBEB0114FB /* SwinjectStoryboard.swift in Sources */,
-				B9429E4A13B9286B8DC0786926E4735D /* SwinjectStoryboardOption.swift in Sources */,
-				F0E10E2464C818A683AC184F237EA901 /* SwinjectStoryboardProtocol.swift in Sources */,
-				519BD8CFBCDBFA27FB966D455848B6A9 /* UnavailableItems.swift in Sources */,
-				0D10554E79BB1DD8131AFC4B0A75C89D /* ViewController+Swinject.swift in Sources */,
+				F9C0C8992F78C6EB763D16A161777492 /* _SwinjectStoryboardBase.m in Sources */,
+				219B7DA96B189E8EA7A9B3597F160DBB /* Box.swift in Sources */,
+				FFB706E19BAE120D21D79DBEA716635A /* Container+SwinjectStoryboard.swift in Sources */,
+				2093025600C298BB2C123FA2D0228E7C /* InjectionVerifiable.swift in Sources */,
+				8C334C252E84253732EECA989D024F14 /* RegistrationNameAssociatable.swift in Sources */,
+				2A52B6CBF454025E715E72EEDECC85A6 /* Storyboard+Swizzling.swift in Sources */,
+				C2A237F4861440F88E7660A74CC5F8D1 /* SwinjectStoryboard+StoryboardReference.swift in Sources */,
+				7B5C17992F7EDF6839B146311F1065A3 /* SwinjectStoryboard-dummy.m in Sources */,
+				E37071382B366C9E51AEB66D26D3C2AC /* SwinjectStoryboard.swift in Sources */,
+				090134BFC778C879B9BF6A04E0B54626 /* SwinjectStoryboardOption.swift in Sources */,
+				AD632AB549CFE6CB81B94D19042E6D65 /* SwinjectStoryboardProtocol.swift in Sources */,
+				CD577A1170E64C689A323A06256F4EA9 /* UnavailableItems.swift in Sources */,
+				978F72E36C70B01F92D3A0AEC5ECE3EE /* ViewController+Swinject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		971D6C340F001FCD36628DEE68E3D692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1630E103AB07DBFDBA8AEABDFD47A13E /* _Resolver.swift in Sources */,
+				829F363916E337AB9CBEAA55A994CF11 /* Assembler.swift in Sources */,
+				50531828F24884F1005FC5F8EAD7F4FA /* Assembly.swift in Sources */,
+				F3A69ACD5B44881369E27B2D99BDD5E6 /* Container.Arguments.swift in Sources */,
+				D859E001A17AC14C2097095788625C1A /* Container.Logging.swift in Sources */,
+				B7388E6FBEAB777E8628E27BA2C2BF37 /* Container.swift in Sources */,
+				61F9F27440E0C85DFE1F3E7C293C0521 /* DebugHelper.swift in Sources */,
+				AEAE73C71D435492AF4F73DF14C860B5 /* FunctionType.swift in Sources */,
+				5D801A0CE344600EC13E055009F363FC /* InstanceStorage.swift in Sources */,
+				528DDDC1DF86B5D52700EF034A56C146 /* ObjectScope.Standard.swift in Sources */,
+				3FC673D83A4FCF3848F1925D3EBB37B0 /* ObjectScope.swift in Sources */,
+				B5AA1A3477EC7400A855CAEBEA7F4816 /* Resolver.swift in Sources */,
+				7743D8DE9A631FF4B12E036FC09E5E39 /* ServiceEntry.swift in Sources */,
+				0D8542AC0566B31816FA626195C2112C /* ServiceKey.swift in Sources */,
+				CC0F3B6262F30E2009CF4BEF02519854 /* SpinLock.swift in Sources */,
+				4E1D539D8E4C1F7DA9C5E6FAA1E25BE1 /* Swinject-dummy.m in Sources */,
+				127BCBAAA557C49C8CD541061F0219A4 /* SynchronizedResolver.Arguments.swift in Sources */,
+				7763F1B5FE98EF277814A6196C693215 /* SynchronizedResolver.swift in Sources */,
+				C01C4CC8B9DC7C7C40ABEF2F67C6FAE2 /* UnavailableItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,30 +739,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27957740E428AD7678450852446BAAEA /* PBXTargetDependency */ = {
+		3DB58F27AF865FADF1332E7DC2FCE35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = E0ACBDEFA7B04E93E1C2ABE203C5A712 /* Swinject */;
+			targetProxy = A90260DE95B5AD094365EB962990B017 /* PBXContainerItemProxy */;
+		};
+		5251D12AB98FBF4FA0489FD10E014A10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwinjectStoryboard;
-			target = 1CD7144C663B252264413B23D7AEDAD5 /* SwinjectStoryboard */;
-			targetProxy = 062A93B09BDF032B50BA755D57A66E2B /* PBXContainerItemProxy */;
+			target = 298A2DA80BF8F07CE77858308D1F57EB /* SwinjectStoryboard */;
+			targetProxy = 29594A1B5F94B524B8318E5AE4583FB7 /* PBXContainerItemProxy */;
 		};
-		3FFFA486C6BFCCF77E87063D0A4D2DBE /* PBXTargetDependency */ = {
+		79CEA87D54F2EE639994B532AD1449DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = 8525E83FFFC2C3DB63AB40E1CC21FD27 /* Toast-Swift */;
+			targetProxy = 9BCA041D37B88FD596FC513618EE4000 /* PBXContainerItemProxy */;
+		};
+		F5E106F74906AAAD674F69F9838869C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Swinject;
-			target = C1E87F6DB32B01F47E024C99C52F5C95 /* Swinject */;
-			targetProxy = 0F2B40E6D9F4A5C64E9848DF2DA67DE6 /* PBXContainerItemProxy */;
-		};
-		7A56749CB43A417E9BE4E21DBC3C3615 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Swinject;
-			target = C1E87F6DB32B01F47E024C99C52F5C95 /* Swinject */;
-			targetProxy = 415FB896DD3CB5F79D97AD75B0B38E8D /* PBXContainerItemProxy */;
+			target = E0ACBDEFA7B04E93E1C2ABE203C5A712 /* Swinject */;
+			targetProxy = D650ECA8139DC5A5A9208A7B04EBD447 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2460E132913B575FD88512B82A011B0F /* Release */ = {
+		2881210D64A1B082BBF9A39C7DE7E13D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 111F820EA03D999CF4BF4239F40020F9 /* SwinjectStoryboard.xcconfig */;
+			baseConfigurationReference = DB9C94DDE936A27C4B1928EEB0E01364 /* Pods-PizzaFactory.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -682,14 +781,82 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwinjectStoryboard/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PizzaFactory/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PizzaFactory/Pods-PizzaFactory.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PizzaFactory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A7F6C03F1BB56C3EB21968CEFE609B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3BF9A96C9F3B478912826330040A61 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3283D5461D8EE5BCBABE903CC48DA1CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F974BDDA326A4BD85A852EA7BD34A687 /* Swinject.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swinject/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swinject/Swinject.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwinjectStoryboard;
+				PRODUCT_NAME = Swinject;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -699,9 +866,9 @@
 			};
 			name = Release;
 		};
-		4C4DC6380042FE83597F8CD146A6A3CB /* Debug */ = {
+		456C7307EF68DC111E36A6348476049D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B61E10DA723063CDF174D2ED6C8BC8FD /* Swinject.xcconfig */;
+			baseConfigurationReference = F974BDDA326A4BD85A852EA7BD34A687 /* Swinject.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -842,9 +1009,9 @@
 			};
 			name = Debug;
 		};
-		86AF5FE2E727DC1A5A303B088DBBE673 /* Release */ = {
+		716EDF6DA878B923C5A551027E72BDCA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB9C94DDE936A27C4B1928EEB0E01364 /* Pods-PizzaFactory.release.xcconfig */;
+			baseConfigurationReference = 9C9C261151003B6EA7A2A3C91CE3E6E8 /* SwinjectStoryboard.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -857,60 +1024,24 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PizzaFactory/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PizzaFactory/Pods-PizzaFactory.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_PizzaFactory;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		959251221D7F02ECD66AE047E4671E71 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 111F820EA03D999CF4BF4239F40020F9 /* SwinjectStoryboard.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwinjectStoryboard/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = SwinjectStoryboard;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		99BD483A853E36BF449FB420F6CEA990 /* Debug */ = {
+		974F45EF1B529D2366749E67DB3E0C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1BE76C9F3FC240D866FEB2C9E7315DA8 /* Pods-PizzaFactory.debug.xcconfig */;
 			buildSettings = {
@@ -946,9 +1077,9 @@
 			};
 			name = Debug;
 		};
-		AF4D49F24ECE5E99D8C41B231A7706A8 /* Release */ = {
+		A44CA3BEA2E68B8B9D3D7B4E4C6E2B71 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B61E10DA723063CDF174D2ED6C8BC8FD /* Swinject.xcconfig */;
+			baseConfigurationReference = 9A3BF9A96C9F3B478912826330040A61 /* Toast-Swift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -961,14 +1092,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Swinject/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Swinject/Swinject.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Swinject;
+				PRODUCT_NAME = Toast_Swift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -977,6 +1108,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		AE02B43D10AC85890D2551091BD5829F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9C261151003B6EA7A2A3C91CE3E6E8 /* SwinjectStoryboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwinjectStoryboard/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwinjectStoryboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B450370730D57981D158DD732302666F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1104,6 +1268,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		3394256CA53CB2DE33FC2488131AD85C /* Build configuration list for PBXNativeTarget "Pods-PizzaFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974F45EF1B529D2366749E67DB3E0C61 /* Debug */,
+				2881210D64A1B082BBF9A39C7DE7E13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		43375F54026ED1728C146826598F7306 /* Build configuration list for PBXNativeTarget "Pods-PizzaFactoryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1122,29 +1295,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		799454F66593D324A60D89C8B90AB7CC /* Build configuration list for PBXNativeTarget "SwinjectStoryboard" */ = {
+		5149736C024D12FF5570E23340801D59 /* Build configuration list for PBXNativeTarget "Swinject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				959251221D7F02ECD66AE047E4671E71 /* Debug */,
-				2460E132913B575FD88512B82A011B0F /* Release */,
+				456C7307EF68DC111E36A6348476049D /* Debug */,
+				3283D5461D8EE5BCBABE903CC48DA1CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		996ECCB4C5675394EB887D39C1D61A43 /* Build configuration list for PBXNativeTarget "Pods-PizzaFactory" */ = {
+		9F42DE2F91E3685219D70C63CB3B79E0 /* Build configuration list for PBXNativeTarget "SwinjectStoryboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99BD483A853E36BF449FB420F6CEA990 /* Debug */,
-				86AF5FE2E727DC1A5A303B088DBBE673 /* Release */,
+				AE02B43D10AC85890D2551091BD5829F /* Debug */,
+				716EDF6DA878B923C5A551027E72BDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6102A0B883E0FDA1CAE8E91B509C179 /* Build configuration list for PBXNativeTarget "Swinject" */ = {
+		A3D29943E8AAFADA217658A9F8D2F243 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C4DC6380042FE83597F8CD146A6A3CB /* Debug */,
-				AF4D49F24ECE5E99D8C41B231A7706A8 /* Release */,
+				2A7F6C03F1BB56C3EB21968CEFE609B4 /* Debug */,
+				A44CA3BEA2E68B8B9D3D7B4E4C6E2B71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

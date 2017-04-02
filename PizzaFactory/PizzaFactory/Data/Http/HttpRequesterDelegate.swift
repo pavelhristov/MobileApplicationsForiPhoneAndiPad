@@ -10,6 +10,7 @@ import UIKit
 
 protocol HttpRequesterDelegate {
     func didReceiveData(data: Any)
+    func didReceiveMessage(success:Bool , message: String)
     func didReceiveError(error: String)
 }
 
@@ -19,6 +20,10 @@ extension HttpRequesterDelegate {
     }
     
     func didReceiveError(error: String) {
+        
+    }
+    
+    func didReceiveMessage(success: Bool, message: String){
         
     }
 }

@@ -7,23 +7,35 @@
 //
 
 import UIKit
+import Toast_Swift
 
 class CustomPizzaDetailsViewController: UIViewController, HttpRequesterDelegate{
     var customPizzaId: String?
     
     var customPizza: CustomPizza?
     
+    
+    var appDelegate: AppDelegate {
+        get {
+            return UIApplication.shared.delegate as! AppDelegate
+        }
+    }
+    
     var url: String {
         get{
-            let appDelegate = UIApplication.shared.delegate as! AppDelegate
-            return "\(appDelegate.baseUrl)/pizzas/custombyid/\(self.customPizzaId!)"
+            return "\(self.appDelegate.baseUrl)/pizzas/custombyid/\(self.customPizzaId!)"
+        }
+    }
+    
+    var addToCartUrl: String{
+        get{
+            return "\(self.appDelegate.baseUrl)/pizzas/addtocart?pizzaId=\(self.customPizzaId!)"
         }
     }
     
     var http: HttpRequester? {
         get{
-            let appDelegate = UIApplication.shared.delegate as! AppDelegate
-            return appDelegate.http
+            return self.appDelegate.http
         }
     }
     
@@ -33,6 +45,8 @@ class CustomPizzaDetailsViewController: UIViewController, HttpRequesterDelegate{
     @IBOutlet weak var LabelPrice: UILabel!
     
     @IBAction func ButtonAddToCartClick() {
+        self.showLoadingScreen()
+        self.http?.get(fromUrl: self.addToCartUrl)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -65,6 +79,15 @@ class CustomPizzaDetailsViewController: UIViewController, HttpRequesterDelegate{
             self.LabelPrice.text = NSString(format: "%.2f", (self.customPizza?.price)!) as String
             
             self.hideLoadingScreen()
+        }
+    }
+    
+    func didReceiveMessage(success: Bool, message: String) {
+        if (message.characters.count > 0) {
+            DispatchQueue.main.async {
+                self.hideLoadingScreen()
+                self.view.makeToast(message)
+            }
         }
     }
 }

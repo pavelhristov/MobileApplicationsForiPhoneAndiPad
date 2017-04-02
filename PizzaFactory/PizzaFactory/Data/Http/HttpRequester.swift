@@ -48,9 +48,16 @@ class HttpRequester{
                         weakSelf?.delegate?.didReceiveError(error: message)
                         return
                     }
-                    
+                    let message = (body as! Dictionary<String, Any>)["message"] as? String
+                    let success = (body as! Dictionary<String, Any>)["success"] as? Bool
                     let data = (body as! Dictionary<String, Any>)["data"]
-                    weakSelf?.delegate?.didReceiveData(data: data)
+                    
+                    if success! && data != nil{
+                        weakSelf?.delegate?.didReceiveData(data: data)
+                    }
+                    
+                    weakSelf?.delegate?.didReceiveMessage(success: success ?? false, message: message ?? "")
+                    
                 }
                 catch {
                     weakSelf?.delegate?.didReceiveError(error: error.localizedDescription)

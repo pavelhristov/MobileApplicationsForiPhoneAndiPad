@@ -38,6 +38,13 @@ class PizzaDetailsViewController: UIViewController, HttpRequesterDelegate{
         }
     }
     
+    
+    var addToCartUrl: String{
+        get{
+            return "\(self.appDelegate.baseUrl)/pizzas/addtocart?pizzaId=\(self.pizzaId!)"
+        }
+    }
+    
     var http: HttpRequester? {
         get{
             return self.appDelegate.http
@@ -104,6 +111,20 @@ class PizzaDetailsViewController: UIViewController, HttpRequesterDelegate{
             }
             
             self.hideLoadingScreen()
+        }
+    }
+    
+    @IBAction func ButtonAddToCartClick(_ sender: Any) {
+        self.showLoadingScreen()
+        self.http?.get(fromUrl: self.addToCartUrl)
+    }
+    
+    func didReceiveMessage(success: Bool, message: String) {
+        if (message.characters.count > 0) {
+            DispatchQueue.main.async {
+                self.hideLoadingScreen()
+                self.view.makeToast(message)
+            }
         }
     }
 }

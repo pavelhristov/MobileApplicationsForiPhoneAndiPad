@@ -2,15 +2,18 @@ PODS:
   - Swinject (2.0.0)
   - SwinjectStoryboard (1.0.0):
     - Swinject (= 2.0.0)
+  - Toast-Swift (2.0.0)
 
 DEPENDENCIES:
   - Swinject (~> 2.0.0)
   - SwinjectStoryboard (~> 1.0.0)
+  - Toast-Swift (~> 2.0.0)
 
 SPEC CHECKSUMS:
   Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
   SwinjectStoryboard: 8e0d3c0202b64172bdf915d55e8dc83d9c4e7863
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
 
-PODFILE CHECKSUM: c6a7b9ff56ab225cee17905ac6777f6bcd0a3595
+PODFILE CHECKSUM: 75c552da337e9fa1e18f05716c40cfde5bdff4db
 
 COCOAPODS: 1.2.0

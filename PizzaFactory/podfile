@@ -8,6 +8,7 @@ target 'PizzaFactory' do
   # Pods for PizzaFactory
   pod 'Swinject', '~> 2.0.0'
   pod 'SwinjectStoryboard', '~> 1.0.0'
+  pod 'Toast-Swift', '~> 2.0.0'
 
   target 'PizzaFactoryTests' do
     inherit! :search_paths
