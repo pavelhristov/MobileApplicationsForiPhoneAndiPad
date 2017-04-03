@@ -14,28 +14,19 @@ class CustomPizzaDetailsViewController: UIViewController, HttpRequesterDelegate{
     
     var customPizza: CustomPizza?
     
-    
-    var appDelegate: AppDelegate {
-        get {
-            return UIApplication.shared.delegate as! AppDelegate
-        }
-    }
+    var http: HttpRequester?
+        
+    var baseUrl: String?
     
     var url: String {
         get{
-            return "\(self.appDelegate.baseUrl)/pizzas/custombyid/\(self.customPizzaId!)"
+            return "\(self.baseUrl!)/pizzas/custombyid/\(self.customPizzaId!)"
         }
     }
     
     var addToCartUrl: String{
         get{
-            return "\(self.appDelegate.baseUrl)/pizzas/addtocart?pizzaId=\(self.customPizzaId!)"
-        }
-    }
-    
-    var http: HttpRequester? {
-        get{
-            return self.appDelegate.http
+            return "\(self.baseUrl!)/pizzas/addtocart?pizzaId=\(self.customPizzaId!)"
         }
     }
     

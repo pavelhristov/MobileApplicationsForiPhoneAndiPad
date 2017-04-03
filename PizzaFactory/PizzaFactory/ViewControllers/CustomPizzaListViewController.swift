@@ -11,31 +11,19 @@ import UIKit
 class CustomPizzaListViewController: UITableViewController, HttpRequesterDelegate{
     var customPizzas: [CustomPizza] = []
     
-    var url: String {
-        get{
-            let appDelegate = UIApplication.shared.delegate as! AppDelegate
-            return "\(appDelegate.baseUrl)/pizzas/custom"
-        }
-    }
+    var url: String?
     
-    var http: HttpRequester? {
-        get{
-            let appDelegate = UIApplication.shared.delegate as! AppDelegate
-            return appDelegate.http
-        }
-    }
+    var http: HttpRequester?
     
     override func viewWillAppear(_ animated: Bool) {
         self.http?.delegate = self
         
         self.showLoadingScreen()
-        self.http?.get(fromUrl: self.url)
+        self.http?.get(fromUrl: self.url!)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //self.tableView.register(CustomPizzaTableViewCell.self, forCellReuseIdentifier: "custom-pizza-cell")
     }
     
     

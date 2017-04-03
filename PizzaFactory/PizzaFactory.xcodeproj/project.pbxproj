@@ -27,6 +27,7 @@
 		21F483891E91AD1400F1D41E /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F483881E91AD1400F1D41E /* CartViewController.swift */; };
 		21F4838B1E91B5C700F1D41E /* BasePizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F4838A1E91B5C700F1D41E /* BasePizza.swift */; };
 		21F4838D1E91B61E00F1D41E /* BasePizzaDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F4838C1E91B61E00F1D41E /* BasePizzaDictionary.swift */; };
+		21F4838F1E91D37C00F1D41E /* DependencyInjectionConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F4838E1E91D37C00F1D41E /* DependencyInjectionConfig.swift */; };
 		21F772C21E90563100C63A97 /* loadingScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F772C11E90563100C63A97 /* loadingScreenExtension.swift */; };
 		21F772C41E90575D00C63A97 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F772C31E90575D00C63A97 /* Pizza.swift */; };
 		21F772C61E9057F500C63A97 /* PizzaDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F772C51E9057F500C63A97 /* PizzaDictionary.swift */; };
@@ -83,6 +84,7 @@
 		21F483881E91AD1400F1D41E /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CartViewController.swift; path = ViewControllers/CartViewController.swift; sourceTree = "<group>"; };
 		21F4838A1E91B5C700F1D41E /* BasePizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasePizza.swift; path = Models/BasePizza.swift; sourceTree = "<group>"; };
 		21F4838C1E91B61E00F1D41E /* BasePizzaDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BasePizzaDictionary.swift; path = Models/DictionaryExtensions/BasePizzaDictionary.swift; sourceTree = "<group>"; };
+		21F4838E1E91D37C00F1D41E /* DependencyInjectionConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyInjectionConfig.swift; sourceTree = "<group>"; };
 		21F772C11E90563100C63A97 /* loadingScreenExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = loadingScreenExtension.swift; path = ViewControllers/Extensions/loadingScreenExtension.swift; sourceTree = "<group>"; };
 		21F772C31E90575D00C63A97 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pizza.swift; path = Models/Pizza.swift; sourceTree = "<group>"; };
 		21F772C51E9057F500C63A97 /* PizzaDictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PizzaDictionary.swift; path = Models/DictionaryExtensions/PizzaDictionary.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				212BE8761E8AFB6D00D1D9D3 /* LaunchScreen.storyboard */,
 				212BE8791E8AFB6D00D1D9D3 /* Info.plist */,
 				212BE8711E8AFB6D00D1D9D3 /* PizzaFactory.xcdatamodeld */,
+				21F4838E1E91D37C00F1D41E /* DependencyInjectionConfig.swift */,
 			);
 			path = PizzaFactory;
 			sourceTree = "<group>";
@@ -575,6 +578,7 @@
 				21F4838D1E91B61E00F1D41E /* BasePizzaDictionary.swift in Sources */,
 				2119B62C1E8D497900C86831 /* HttpRequester.swift in Sources */,
 				2119B6341E8D507900C86831 /* CustomPizzaDictionary.swift in Sources */,
+				21F4838F1E91D37C00F1D41E /* DependencyInjectionConfig.swift in Sources */,
 				2119B6281E8D42FD00C86831 /* CustomPizzaListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

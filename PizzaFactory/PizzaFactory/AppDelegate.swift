@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     var baseUrl: String = "http://192.168.0.101/api"
-    var accountUrl: String = "http://192.168.0.101/account"
     var http: HttpRequester?
 
 

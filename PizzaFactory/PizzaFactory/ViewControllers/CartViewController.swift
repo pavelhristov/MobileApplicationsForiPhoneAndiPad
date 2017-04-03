@@ -18,30 +18,20 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBOutlet weak var TextViewAddress: UITextView!
     @IBOutlet weak var LabelPrice: UILabel!
     
+    var http: HttpRequester?
     
-    
-    var appDelegate: AppDelegate {
-        get {
-            return UIApplication.shared.delegate as! AppDelegate
-        }
-    }
+    var baseUrl: String?
     
     var showCartUrl: String {
         get{
-            return "\(self.appDelegate.baseUrl)/pizzas/showcart"
+            return "\(self.baseUrl!)/pizzas/showcart"
         }
     }
     
     var confirmOrderUrl: String {
         get{
             let escapedString = self.TextViewAddress.text!.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
-            return "\(self.appDelegate.baseUrl)/pizzas/order?address=\(escapedString!)"
-        }
-    }
-    
-    var http: HttpRequester? {
-        get{
-            return self.appDelegate.http
+            return "\(self.baseUrl!)/pizzas/order?address=\(escapedString!)"
         }
     }
     

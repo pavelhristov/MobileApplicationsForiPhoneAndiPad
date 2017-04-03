@@ -12,6 +12,7 @@ class HomeViewController: UIViewController{
     @IBOutlet weak var LabelTitle: UILabel!
     
     override func viewDidLoad() {
-        self.LabelTitle.text = "Hello"
+        self.LabelTitle.text = "Pizza.com"
+        self.LabelTitle.font = UIFont(name: "Zapfino", size: 30)
     }
 }

@@ -19,35 +19,24 @@ class PizzaDetailsViewController: UIViewController, HttpRequesterDelegate{
     
     var pizza: Pizza?
     
-    var appDelegate: AppDelegate {
-        get {
-            return UIApplication.shared.delegate as! AppDelegate
-        }
-    }
+    var http: HttpRequester?
     
-    var managedObjectContext: NSManagedObjectContext {
-        get {
-            return self.appDelegate.persistentContainer.viewContext
-        }
-    }
+    var appDelegate: AppDelegate?
     
+    var managedObjectContext: NSManagedObjectContext?
+    
+    var baseUrl: String?
     
     var url: String {
         get{
-            return "\(self.appDelegate.baseUrl)/pizzas/oursbyid/\(self.pizzaId!)"
+            return "\(self.baseUrl!)/pizzas/oursbyid/\(self.pizzaId!)"
         }
     }
     
     
     var addToCartUrl: String{
         get{
-            return "\(self.appDelegate.baseUrl)/pizzas/addtocart?pizzaId=\(self.pizzaId!)"
-        }
-    }
-    
-    var http: HttpRequester? {
-        get{
-            return self.appDelegate.http
+            return "\(self.baseUrl!)/pizzas/addtocart?pizzaId=\(self.pizzaId!)"
         }
     }
     
@@ -84,20 +73,20 @@ class PizzaDetailsViewController: UIViewController, HttpRequesterDelegate{
             do {
                 let myRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "PizzaImage")
                 myRequest.predicate = NSPredicate(format: "imgUrl = %@", (self.pizza?.imgUrl)!)
-                let imgData = try self.managedObjectContext.fetch(myRequest).first as? PizzaImage
+                let imgData = try self.managedObjectContext?.fetch(myRequest).first as? PizzaImage
                 let image: UIImage
                 if imgData == nil {
                     // if no image is found, cache it
-                    let pizzaImage:PizzaImage = PizzaImage(entity: NSEntityDescription.entity(forEntityName: "PizzaImage", in: self.managedObjectContext)!, insertInto: self.managedObjectContext)
+                    let pizzaImage:PizzaImage = PizzaImage(entity: NSEntityDescription.entity(forEntityName: "PizzaImage", in: self.managedObjectContext!)!, insertInto: self.managedObjectContext)
                     
                     pizzaImage.imgUrl = self.pizza?.imgUrl
                     let imageData = try Data(contentsOf: URL(string: (self.pizza?.imgUrl)!)!)
                     image = UIImage(data: imageData)!
                     pizzaImage.imgData = imageData as NSData?
                     
-                    self.managedObjectContext.insert(pizzaImage)
+                    self.managedObjectContext?.insert(pizzaImage)
                     
-                    self.appDelegate.saveContext()
+                    self.appDelegate?.saveContext()
                 } else {
                     // using cached images
                     image = UIImage(data: imgData?.imgData as! Data)!
