@@ -1,19 +1,22 @@
 PODS:
+  - SwiftLocation (2.0.1)
   - Swinject (2.0.0)
   - SwinjectStoryboard (1.0.0):
     - Swinject (= 2.0.0)
   - Toast-Swift (2.0.0)
 
 DEPENDENCIES:
+  - SwiftLocation
   - Swinject (~> 2.0.0)
   - SwinjectStoryboard (~> 1.0.0)
   - Toast-Swift (~> 2.0.0)
 
 SPEC CHECKSUMS:
+  SwiftLocation: 3c66807be3cc511d6b3496fcccd7ba05d839f23b
   Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
   SwinjectStoryboard: 8e0d3c0202b64172bdf915d55e8dc83d9c4e7863
   Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
 
-PODFILE CHECKSUM: 75c552da337e9fa1e18f05716c40cfde5bdff4db
+PODFILE CHECKSUM: b5206399f43e9479f6f4bd673a3d0896c36f110d
 
 COCOAPODS: 1.2.0

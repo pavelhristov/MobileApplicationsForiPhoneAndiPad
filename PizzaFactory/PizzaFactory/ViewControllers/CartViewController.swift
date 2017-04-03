@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftLocation
 
 class CartViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, HttpRequesterDelegate {
     var basePizzas: [BasePizza] = []
@@ -92,6 +93,18 @@ class CartViewController: UIViewController, UITableViewDataSource, UITableViewDe
     }
     
     @IBAction func ButtonCurrentLocationClick() {
+        
+        Location.getLocation(accuracy: .IPScan(IPService(.freeGeoIP)), frequency: .oneShot, success: { _,location in
+            Location.getPlacemark(forLocation: location, success: { placemarks in
+                let address = placemarks.first?.addressDictionary?["FormattedAddressLines"] as! [String]
+                self.TextViewAddress.text = "\(address.joined(separator: ", "))"
+            }) { error in
+                print("Cannot retrive placemark due to an error \(error)")
+            }
+        }) { (_, last, error) in
+            print("Something bad has occurred \(error)")
+        }
+        
     }
     
     @IBAction func ButtonSendOrderClick() {
